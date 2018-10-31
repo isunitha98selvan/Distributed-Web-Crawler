@@ -1,0 +1,292 @@
+2018-10-31 18:02:26,964 DEBUG:[setup - server.py, 52] Socket initialization
+2018-10-31 18:02:26,964 INFO:Listening on [127.0.0.1:5050]
+2018-10-31 18:02:26,965 INFO:Waiting for working nodes to connect...
+2018-10-31 18:02:29,854 INFO:[127.0.0.1:46638] Working node connected
+2018-10-31 18:02:29,855 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-10-31 18:02:29,855 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:46638] Sending configuration
+2018-10-31 18:02:29,856 INFO:Starting server urlDispatcher
+2018-10-31 18:02:29,857 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 6863 bytes
+2018-10-31 18:02:29,858 INFO:Starting server mainRoutine
+2018-10-31 18:02:29,858 INFO:Starting server storageRoutine
+2018-10-31 18:02:29,859 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:46638] Configuration sent waiting for ACK
+2018-10-31 18:02:29,878 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 129 bytes
+2018-10-31 18:02:29,880 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:46638] Working node ACK received (configuration)
+2018-10-31 18:02:29,884 DEBUG:[inputThread - server.py, 239] [127.0.0.1:46638] Listening for packets
+2018-10-31 18:02:29,883 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 237 bytes
+2018-10-31 18:02:29,886 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL http://www.businessinsider.com/
+2018-10-31 18:02:29,887 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 226 bytes
+2018-10-31 18:02:29,888 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL http://mashable.com/
+2018-10-31 18:02:37,377 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 554 bytes
+2018-10-31 18:02:37,409 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:37,409 INFO:[127.0.0.1:46638] Skipped (unknown error) : http://www.businessinsider.com/
+2018-10-31 18:02:42,459 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2473 bytes
+2018-10-31 18:02:42,460 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:42,460 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   32  /    0    -   1  
+2018-10-31 18:02:42,460 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 266 bytes
+2018-10-31 18:02:42,461 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/video/jimmy-kimmel-cardi-b-nicki-minaj/
+2018-10-31 18:02:42,461 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 285 bytes
+2018-10-31 18:02:42,461 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/game-of-thrones-naomi-watts-prequel-age-of-heroes/
+2018-10-31 18:02:42,462 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 264 bytes
+2018-10-31 18:02:42,462 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/headless-little-girl-costume/
+2018-10-31 18:02:42,462 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 259 bytes
+2018-10-31 18:02:42,462 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/facebook-proud-boys-ban/
+2018-10-31 18:02:42,463 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 261 bytes
+2018-10-31 18:02:42,463 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/facebook-q3-2018-earnings/
+2018-10-31 18:02:42,464 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 4726 bytes
+2018-10-31 18:02:42,464 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:42,465 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:42,465 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttp://mashable.com/
+2018-10-31 18:02:42,493 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 267 bytes
+2018-10-31 18:02:42,494 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/apple-brooklyn-airpower-airpods/
+2018-10-31 18:02:43,818 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 868 bytes
+2018-10-31 18:02:43,818 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:43,818 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   8   /    32   -   1  
+2018-10-31 18:02:43,860 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 3137 bytes
+2018-10-31 18:02:43,861 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:43,861 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:43,861 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/video/jimmy-kimmel-cardi-b-nicki-minaj/
+2018-10-31 18:02:43,879 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 268 bytes
+2018-10-31 18:02:43,879 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/creepypasta-changed-channel-zero/
+2018-10-31 18:02:45,821 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 479 bytes
+2018-10-31 18:02:45,822 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:45,822 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   4   /    40   -   1  
+2018-10-31 18:02:45,864 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2763 bytes
+2018-10-31 18:02:45,865 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:45,865 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:45,866 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/game-of-thrones-naomi-watts-prequel-age-of-heroes/
+2018-10-31 18:02:45,867 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 296 bytes
+2018-10-31 18:02:45,867 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/2018/10/29/grand-complications-skeleton-iphone/?utm_cid=hp-videostrip
+2018-10-31 18:02:47,828 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 349 bytes
+2018-10-31 18:02:47,828 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:47,828 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   2   /    44   -   1  
+2018-10-31 18:02:47,868 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2610 bytes
+2018-10-31 18:02:47,869 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:47,869 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:47,869 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/headless-little-girl-costume/
+2018-10-31 18:02:47,884 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 285 bytes
+2018-10-31 18:02:47,884 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/video/playstation-classic-mini-sony/?utm_cid=hp-videostrip
+2018-10-31 18:02:48,965 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 439 bytes
+2018-10-31 18:02:48,966 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:48,967 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   3   /    46   -   1  
+2018-10-31 18:02:49,012 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2696 bytes
+2018-10-31 18:02:49,013 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:49,014 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:49,014 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/facebook-proud-boys-ban/
+2018-10-31 18:02:49,030 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 295 bytes
+2018-10-31 18:02:49,030 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/video/realistic-robots-mesmer-engineered-arts/?utm_cid=hp-videostrip
+2018-10-31 18:02:50,097 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 610 bytes
+2018-10-31 18:02:50,097 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:50,097 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   6   /    49   -   1  
+2018-10-31 18:02:50,140 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2872 bytes
+2018-10-31 18:02:50,141 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:50,141 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:50,141 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/facebook-q3-2018-earnings/
+2018-10-31 18:02:50,144 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 255 bytes
+2018-10-31 18:02:50,145 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/venice-flood-photos/
+2018-10-31 18:02:50,998 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 909 bytes
+2018-10-31 18:02:50,999 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:50,999 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   11  /    55   -   1  
+2018-10-31 18:02:51,040 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 3182 bytes
+2018-10-31 18:02:51,041 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:51,041 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:51,041 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/apple-brooklyn-airpower-airpods/
+2018-10-31 18:02:51,048 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 261 bytes
+2018-10-31 18:02:51,048 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/apple-base-pricing-rising/
+2018-10-31 18:02:52,188 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 621 bytes
+2018-10-31 18:02:52,188 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:52,188 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   6   /    66   -   1  
+2018-10-31 18:02:52,228 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2891 bytes
+2018-10-31 18:02:52,229 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:52,229 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:52,229 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/creepypasta-changed-channel-zero/
+2018-10-31 18:02:52,253 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 273 bytes
+2018-10-31 18:02:52,253 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/faraday-future-electric-car-furloughs/
+2018-10-31 18:02:54,054 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 182 bytes
+2018-10-31 18:02:54,054 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:54,054 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   0   /    72   -   1  
+2018-10-31 18:02:54,096 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2473 bytes
+2018-10-31 18:02:54,097 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:54,097 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:54,097 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/2018/10/29/grand-complications-skeleton-iphone/?utm_cid=hp-videostrip
+2018-10-31 18:02:54,121 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 258 bytes
+2018-10-31 18:02:54,121 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/gifts/best-gifts-for-travelers/
+2018-10-31 18:02:56,232 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 237 bytes
+2018-10-31 18:02:56,232 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:56,232 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   1   /    72   -   1  
+2018-10-31 18:02:56,272 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2518 bytes
+2018-10-31 18:02:56,273 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:56,273 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:56,273 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/video/playstation-classic-mini-sony/?utm_cid=hp-videostrip
+2018-10-31 18:02:56,289 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 287 bytes
+2018-10-31 18:02:56,290 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/video/rubiks-cube-inventor-erno-rubik/?utm_cid=hp-videostrip
+2018-10-31 18:02:57,180 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 229 bytes
+2018-10-31 18:02:57,180 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:57,180 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   1   /    73   -   1  
+2018-10-31 18:02:57,220 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2518 bytes
+2018-10-31 18:02:57,221 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:57,221 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:57,221 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/video/realistic-robots-mesmer-engineered-arts/?utm_cid=hp-videostrip
+2018-10-31 18:02:57,223 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 257 bytes
+2018-10-31 18:02:57,224 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/new-ipad-pro-analysis/
+2018-10-31 18:02:59,271 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 358 bytes
+2018-10-31 18:02:59,271 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:59,271 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   2   /    74   -   1  
+2018-10-31 18:02:59,312 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2610 bytes
+2018-10-31 18:02:59,313 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:02:59,313 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:02:59,314 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/venice-flood-photos/
+2018-10-31 18:02:59,331 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 267 bytes
+2018-10-31 18:02:59,331 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/apple-macbook-air-2018-hands-on/
+2018-10-31 18:03:02,156 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 849 bytes
+2018-10-31 18:03:02,156 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:02,157 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   9   /    76   -   1  
+2018-10-31 18:03:02,196 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 3114 bytes
+2018-10-31 18:03:02,197 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:02,198 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:02,198 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/apple-base-pricing-rising/
+2018-10-31 18:03:02,222 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 258 bytes
+2018-10-31 18:03:02,222 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/2018-ipad-pro-hands-on/
+2018-10-31 18:03:04,322 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 505 bytes
+2018-10-31 18:03:04,322 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:04,323 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   4   /    83   -   1  
+2018-10-31 18:03:04,364 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2777 bytes
+2018-10-31 18:03:04,365 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:04,366 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:04,366 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/faraday-future-electric-car-furloughs/
+2018-10-31 18:03:04,392 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 276 bytes
+2018-10-31 18:03:04,392 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/video/original-sabrina-cast-watch-netflix-series/
+2018-10-31 18:03:06,490 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 287 bytes
+2018-10-31 18:03:06,490 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:06,491 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   2   /    87   -   1  
+2018-10-31 18:03:06,532 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2541 bytes
+2018-10-31 18:03:06,533 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:06,533 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:06,533 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/gifts/best-gifts-for-travelers/
+2018-10-31 18:03:06,559 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 267 bytes
+2018-10-31 18:03:06,559 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/rpgnet-forum-bans-trump-support/
+2018-10-31 18:03:08,603 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 235 bytes
+2018-10-31 18:03:08,604 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:08,604 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   1   /    89   -   1  
+2018-10-31 18:03:08,644 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2518 bytes
+2018-10-31 18:03:08,645 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:08,645 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:08,645 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/video/rubiks-cube-inventor-erno-rubik/?utm_cid=hp-videostrip
+2018-10-31 18:03:08,667 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 262 bytes
+2018-10-31 18:03:08,667 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/video/jimmy-fallon-trump-halloween/
+2018-10-31 18:03:10,754 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 500 bytes
+2018-10-31 18:03:10,755 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:10,755 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   5   /    90   -   1  
+2018-10-31 18:03:10,796 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2757 bytes
+2018-10-31 18:03:10,797 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:10,798 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:10,798 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/new-ipad-pro-analysis/
+2018-10-31 18:03:10,805 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 271 bytes
+2018-10-31 18:03:10,805 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/uber-ride-pass-monthly-subscription/
+2018-10-31 18:03:12,869 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 471 bytes
+2018-10-31 18:03:12,870 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:12,870 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   4   /    95   -   1  
+2018-10-31 18:03:12,912 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2737 bytes
+2018-10-31 18:03:12,913 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:12,913 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:12,913 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/apple-macbook-air-2018-hands-on/
+2018-10-31 18:03:12,942 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 275 bytes
+2018-10-31 18:03:12,942 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/beyonce-toni-branxton-halloween-costume/
+2018-10-31 18:03:15,075 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 585 bytes
+2018-10-31 18:03:15,075 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:15,076 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   6   /    99   -   1  
+2018-10-31 18:03:15,116 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2842 bytes
+2018-10-31 18:03:15,117 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:15,117 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:15,117 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/2018-ipad-pro-hands-on/
+2018-10-31 18:03:15,140 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 270 bytes
+2018-10-31 18:03:15,141 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/kepler-space-telescope-mission-end/
+2018-10-31 18:03:17,224 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 936 bytes
+2018-10-31 18:03:17,224 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:17,225 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   9   /   103   -   1  
+2018-10-31 18:03:17,264 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 3215 bytes
+2018-10-31 18:03:17,265 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:17,265 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:17,266 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/video/original-sabrina-cast-watch-netflix-series/
+2018-10-31 18:03:17,278 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 286 bytes
+2018-10-31 18:03:17,279 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/2018/10/26/beats-studio-3-headphones/?utm_cid=hp-videostrip
+2018-10-31 18:03:19,298 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 449 bytes
+2018-10-31 18:03:19,298 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:19,298 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   3   /   106   -   1  
+2018-10-31 18:03:19,340 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2714 bytes
+2018-10-31 18:03:19,341 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:19,341 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:19,341 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/rpgnet-forum-bans-trump-support/
+2018-10-31 18:03:19,356 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 261 bytes
+2018-10-31 18:03:19,356 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/poorly-drawn-cats-twitter/
+2018-10-31 18:03:21,070 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 880 bytes
+2018-10-31 18:03:21,071 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:21,071 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   8   /   109   -   1  
+2018-10-31 18:03:21,116 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 3146 bytes
+2018-10-31 18:03:21,117 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:21,117 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:21,117 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/video/jimmy-fallon-trump-halloween/
+2018-10-31 18:03:21,134 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 265 bytes
+2018-10-31 18:03:21,134 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/apple-watchos-update-bricking/
+2018-10-31 18:03:23,207 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 431 bytes
+2018-10-31 18:03:23,207 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:23,207 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   3   /   111   -   1  
+2018-10-31 18:03:23,248 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2700 bytes
+2018-10-31 18:03:23,249 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:23,249 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:23,249 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/uber-ride-pass-monthly-subscription/
+2018-10-31 18:03:23,273 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 262 bytes
+2018-10-31 18:03:23,274 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/queer-eye-interview-fandom/
+2018-10-31 18:03:25,953 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 530 bytes
+2018-10-31 18:03:25,953 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:25,953 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   4   /   114   -   1  
+2018-10-31 18:03:25,996 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2803 bytes
+2018-10-31 18:03:25,997 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:25,997 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:25,997 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/beyonce-toni-branxton-halloween-costume/
+2018-10-31 18:03:26,014 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 287 bytes
+2018-10-31 18:03:26,014 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/pittsburgh-shooting-hospital-doctor-viral-interview/
+2018-10-31 18:03:28,110 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 348 bytes
+2018-10-31 18:03:28,110 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:28,111 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   2   /   118   -   1  
+2018-10-31 18:03:28,152 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2613 bytes
+2018-10-31 18:03:28,153 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:28,153 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:28,153 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/kepler-space-telescope-mission-end/
+2018-10-31 18:03:28,182 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 264 bytes
+2018-10-31 18:03:28,183 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/waymo-driverless-cars-permit/
+2018-10-31 18:03:29,899 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 182 bytes
+2018-10-31 18:03:29,900 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:29,900 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   0   /   120   -   1  
+2018-10-31 18:03:29,940 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2462 bytes
+2018-10-31 18:03:29,941 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:29,941 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:29,942 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/2018/10/26/beats-studio-3-headphones/?utm_cid=hp-videostrip
+2018-10-31 18:03:29,960 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 271 bytes
+2018-10-31 18:03:29,960 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/article/apple-dont-kill-magsafe-macbook-air/
+2018-10-31 18:03:31,899 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 399 bytes
+2018-10-31 18:03:31,899 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:31,900 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   3   /   120   -   1  
+2018-10-31 18:03:31,940 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2657 bytes
+2018-10-31 18:03:31,941 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:31,941 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:31,942 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/poorly-drawn-cats-twitter/
+2018-10-31 18:03:31,947 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 280 bytes
+2018-10-31 18:03:31,948 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/2018/10/26/history-of-warcraft/?utm_cid=hp-videostrip
+2018-10-31 18:03:33,849 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 347 bytes
+2018-10-31 18:03:33,850 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:33,851 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   2   /   123   -   1  
+2018-10-31 18:03:33,892 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2608 bytes
+2018-10-31 18:03:33,893 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:33,893 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:33,894 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/apple-watchos-update-bricking/
+2018-10-31 18:03:33,905 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 302 bytes
+2018-10-31 18:03:33,905 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/2018/10/30/jimmy-kimmel-roasts-matt-damon-world-series/?utm_cid=a-vt-nextup
+2018-10-31 18:03:35,058 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 507 bytes
+2018-10-31 18:03:35,058 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:35,058 INFO:[127.0.0.1:46638] Receiving scrapped URLs :   4   /   124   -   1  
+2018-10-31 18:03:35,100 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46638] Receiving 2769 bytes
+2018-10-31 18:03:35,101 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:03:35,101 INFO:[127.0.0.1:46638] Receiving scrapped data
+2018-10-31 18:03:35,102 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46638] Receiving scrapped datahttps://mashable.com/article/queer-eye-interview-fandom/
+2018-10-31 18:03:35,109 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46638] Sending 287 bytes
+2018-10-31 18:03:35,110 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46638] Sending URL https://mashable.com/2018/10/31/jimmy-fallon-trump-halloween/?utm_cid=a-vt-nextup

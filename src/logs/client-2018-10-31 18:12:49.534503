@@ -1,0 +1,83 @@
+2018-10-31 18:12:49,534 DEBUG:[connect - client.py, 44] Socket initialization
+2018-10-31 18:12:49,534 DEBUG:[connect - client.py, 44] Connecting to host... [127.0.0.1:5050]
+2018-10-31 18:12:49,535 INFO:Connected to [127.0.0.1:5050]
+2018-10-31 18:12:49,535 DEBUG:[readConfig - client.py, 66] Waiting for configuration from the server.
+2018-10-31 18:12:49,536 DEBUG:[readSocket - client.py, 270] Receiving 5338 bytes from server
+2018-10-31 18:12:49,537 DEBUG:[readConfig - client.py, 66] Configuration received.
+2018-10-31 18:12:49,537 INFO:Importing rule.py from server
+2018-10-31 18:12:49,538 INFO:Importing scrapping.py from server
+2018-10-31 18:12:49,541 INFO:Reloading modules imported for server
+2018-10-31 18:12:49,542 DEBUG:[writeSocket - client.py, 259] Sending 145 bytes to server
+2018-10-31 18:12:49,543 DEBUG:[readConfig - client.py, 66] Sending ACK for configuration.
+2018-10-31 18:12:49,543 INFO:
+
+Starting Crawling/Scrapping sequence...
+2018-10-31 18:12:49,543 DEBUG:[crawlingThread - client.py, 199] CrawlingThread started
+2018-10-31 18:12:49,543 DEBUG:[outputThread - client.py, 163] OutputThread started
+2018-10-31 18:12:49,544 DEBUG:[interpretingThread - client.py, 178] InterpretingThread started
+2018-10-31 18:12:49,544 DEBUG:[inputThread - client.py, 147] InputThread started
+2018-10-31 18:12:49,544 DEBUG:[readSocket - client.py, 270] Receiving 209 bytes from server
+2018-10-31 18:12:49,544 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/
+2018-10-31 18:12:49,545 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:49,744 INFO:Scrapping : http://www.bbc.com/
+2018-10-31 18:12:51,401 DEBUG:[visit - scrapping.py, 38] Scrapping complete
+2018-10-31 18:12:51,401 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/
+Code : 200
+Request time : 0.279352903366
+Bs time : 0.460083007812
+2018-10-31 18:12:51,402 DEBUG:[writeSocket - client.py, 259] Sending 2728 bytes to server
+2018-10-31 18:12:51,402 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:12:51,403 DEBUG:[writeSocket - client.py, 259] Sending 5648 bytes to server
+2018-10-31 18:12:51,403 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:12:51,404 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:12:51,404 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-46017239
+2018-10-31 18:12:51,404 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:51,405 DEBUG:[readSocket - client.py, 270] Receiving 234 bytes from server
+2018-10-31 18:12:51,405 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/world-asia-46030622
+2018-10-31 18:12:51,405 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:51,405 DEBUG:[readSocket - client.py, 270] Receiving 216 bytes from server
+2018-10-31 18:12:51,405 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/capital
+2018-10-31 18:12:51,405 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:51,406 DEBUG:[readSocket - client.py, 270] Receiving 230 bytes from server
+2018-10-31 18:12:51,406 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/health-46031332
+2018-10-31 18:12:51,406 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:51,407 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:12:51,407 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel/
+2018-10-31 18:12:51,407 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:51,467 DEBUG:[readSocket - client.py, 270] Receiving 268 bytes from server
+2018-10-31 18:12:51,468 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+2018-10-31 18:12:51,468 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:12:51,602 INFO:Scrapping : https://www.bbc.com/news/business-46017239
+2018-10-31 18:12:55,849 CRITICAL:
+
+ ************************
+Traceback (most recent call last):
+  File "client.py", line 214, in crawlingThread
+    session = self.scrapper.visit(url)
+  File "/home/anumeha/Documents/Zeek/src/modules/scrapping.py", line 72, in visit
+    data = opener.open(request, timeout=4)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1241, in https_open
+    context=self._context)
+  File "/usr/lib/python2.7/urllib2.py", line 1201, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "/usr/lib/python2.7/ssl.py", line 756, in recv
+    return self.read(buflen)
+  File "/usr/lib/python2.7/ssl.py", line 643, in read
+    v = self._sslobj.read(len)
+SSLError: ('The read operation timed out',)
+

@@ -1,0 +1,1218 @@
+2018-10-31 18:07:16,146 DEBUG:[connect - client.py, 44] Socket initialization
+2018-10-31 18:07:16,146 DEBUG:[connect - client.py, 44] Connecting to host... [127.0.0.1:5050]
+2018-10-31 18:07:16,146 INFO:Connected to [127.0.0.1:5050]
+2018-10-31 18:07:16,146 DEBUG:[readConfig - client.py, 66] Waiting for configuration from the server.
+2018-10-31 18:07:16,148 DEBUG:[readSocket - client.py, 270] Receiving 6806 bytes from server
+2018-10-31 18:07:16,148 DEBUG:[readConfig - client.py, 66] Configuration received.
+2018-10-31 18:07:16,148 INFO:Importing rule.py from server
+2018-10-31 18:07:16,149 INFO:Importing scrapping.py from server
+2018-10-31 18:07:16,151 INFO:Reloading modules imported for server
+2018-10-31 18:07:16,152 DEBUG:[writeSocket - client.py, 259] Sending 145 bytes to server
+2018-10-31 18:07:16,152 DEBUG:[readConfig - client.py, 66] Sending ACK for configuration.
+2018-10-31 18:07:16,152 INFO:
+
+Starting Crawling/Scrapping sequence...
+2018-10-31 18:07:16,153 DEBUG:[crawlingThread - client.py, 199] CrawlingThread started
+2018-10-31 18:07:16,153 DEBUG:[inputThread - client.py, 147] InputThread started
+2018-10-31 18:07:16,153 DEBUG:[interpretingThread - client.py, 178] InterpretingThread started
+2018-10-31 18:07:16,153 DEBUG:[outputThread - client.py, 163] OutputThread started
+2018-10-31 18:07:16,154 DEBUG:[readSocket - client.py, 270] Receiving 209 bytes from server
+2018-10-31 18:07:16,154 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/
+2018-10-31 18:07:16,155 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:16,354 INFO:Scrapping : http://www.bbc.com/
+2018-10-31 18:07:21,952 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:21,953 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/
+Code : 200
+Request time : 0.632374048233
+Bs time : 3.56094884872
+2018-10-31 18:07:21,953 DEBUG:[writeSocket - client.py, 259] Sending 2728 bytes to server
+2018-10-31 18:07:21,954 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:21,954 DEBUG:[writeSocket - client.py, 259] Sending 5619 bytes to server
+2018-10-31 18:07:21,955 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:21,955 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:07:21,956 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-46017239
+2018-10-31 18:07:21,956 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:21,956 DEBUG:[readSocket - client.py, 270] Receiving 234 bytes from server
+2018-10-31 18:07:21,956 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/world-asia-46030622
+2018-10-31 18:07:21,957 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:21,957 DEBUG:[readSocket - client.py, 270] Receiving 216 bytes from server
+2018-10-31 18:07:21,957 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/capital
+2018-10-31 18:07:21,957 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:21,958 DEBUG:[readSocket - client.py, 270] Receiving 230 bytes from server
+2018-10-31 18:07:21,958 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/health-46031332
+2018-10-31 18:07:21,958 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:21,959 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:07:21,959 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel/
+2018-10-31 18:07:21,959 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:22,020 DEBUG:[readSocket - client.py, 270] Receiving 268 bytes from server
+2018-10-31 18:07:22,020 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+2018-10-31 18:07:22,020 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:22,153 INFO:Scrapping : https://www.bbc.com/news/business-46017239
+2018-10-31 18:07:25,092 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:25,093 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-46017239
+Code : 200
+Request time : 1.96446108818
+Bs time : 0.972245931625
+2018-10-31 18:07:25,093 DEBUG:[writeSocket - client.py, 259] Sending 345 bytes to server
+2018-10-31 18:07:25,093 INFO:Scrapping : https://www.bbc.com/news/world-asia-46030622
+2018-10-31 18:07:25,093 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:25,094 DEBUG:[writeSocket - client.py, 259] Sending 3008 bytes to server
+2018-10-31 18:07:25,095 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:25,153 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:07:25,153 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/newsbeat-45970106
+2018-10-31 18:07:25,153 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:27,295 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:27,295 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/world-asia-46030622
+Code : 200
+Request time : 1.54734396935
+Bs time : 0.650746107101
+2018-10-31 18:07:27,296 DEBUG:[writeSocket - client.py, 259] Sending 347 bytes to server
+2018-10-31 18:07:27,296 INFO:Scrapping : http://www.bbc.com/capital
+2018-10-31 18:07:27,296 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:27,297 DEBUG:[writeSocket - client.py, 259] Sending 3011 bytes to server
+2018-10-31 18:07:27,297 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:27,350 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:07:27,351 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-46028792
+2018-10-31 18:07:27,351 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:28,930 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:28,930 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/capital
+Code : 200
+Request time : 0.777684926987
+Bs time : 0.85237288475
+2018-10-31 18:07:28,930 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:07:28,930 INFO:Scrapping : https://www.bbc.com/news/health-46031332
+2018-10-31 18:07:28,930 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:28,932 DEBUG:[writeSocket - client.py, 259] Sending 3300 bytes to server
+2018-10-31 18:07:28,932 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:28,977 DEBUG:[readSocket - client.py, 270] Receiving 262 bytes from server
+2018-10-31 18:07:28,977 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/story/20181030-mexicos-bread-baked-for-spirits
+2018-10-31 18:07:28,977 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:31,193 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:31,193 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/health-46031332
+Code : 200
+Request time : 1.52443313599
+Bs time : 0.734426021576
+2018-10-31 18:07:31,193 DEBUG:[writeSocket - client.py, 259] Sending 399 bytes to server
+2018-10-31 18:07:31,194 INFO:Scrapping : https://www.bbc.com/reel/
+2018-10-31 18:07:31,194 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:31,194 DEBUG:[writeSocket - client.py, 259] Sending 3052 bytes to server
+2018-10-31 18:07:31,195 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:31,264 DEBUG:[readSocket - client.py, 270] Receiving 236 bytes from server
+2018-10-31 18:07:31,265 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/world-europe-45902014
+2018-10-31 18:07:31,265 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:32,596 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:32,596 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/reel/
+Code : 200
+Request time : 0.867619991302
+Bs time : 0.53254699707
+2018-10-31 18:07:32,596 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:07:32,596 INFO:Scrapping : https://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+2018-10-31 18:07:32,597 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:32,598 DEBUG:[writeSocket - client.py, 259] Sending 2682 bytes to server
+2018-10-31 18:07:32,598 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:32,650 DEBUG:[readSocket - client.py, 270] Receiving 239 bytes from server
+2018-10-31 18:07:32,650 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/world-us-canada-46012626
+2018-10-31 18:07:32,650 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:33,913 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:33,913 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+Code : 200
+Request time : 0.768529891968
+Bs time : 0.546639204025
+2018-10-31 18:07:33,913 DEBUG:[writeSocket - client.py, 259] Sending 328 bytes to server
+2018-10-31 18:07:33,913 INFO:Scrapping : https://www.bbc.com/news/newsbeat-45970106
+2018-10-31 18:07:33,913 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:33,914 DEBUG:[writeSocket - client.py, 259] Sending 2768 bytes to server
+2018-10-31 18:07:33,914 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:33,975 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:07:33,975 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-45969676
+2018-10-31 18:07:33,975 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:36,541 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:36,541 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/newsbeat-45970106
+Code : 200
+Request time : 2.00604200363
+Bs time : 0.618681907654
+2018-10-31 18:07:36,542 DEBUG:[writeSocket - client.py, 259] Sending 345 bytes to server
+2018-10-31 18:07:36,542 INFO:Scrapping : https://www.bbc.com/news/business-46028792
+2018-10-31 18:07:36,543 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:36,543 DEBUG:[writeSocket - client.py, 259] Sending 3006 bytes to server
+2018-10-31 18:07:36,543 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:36,594 DEBUG:[readSocket - client.py, 270] Receiving 226 bytes from server
+2018-10-31 18:07:36,594 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/uk-46027266
+2018-10-31 18:07:36,594 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:38,611 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:38,612 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-46028792
+Code : 200
+Request time : 1.47221398354
+Bs time : 0.594377994537
+2018-10-31 18:07:38,612 DEBUG:[writeSocket - client.py, 259] Sending 403 bytes to server
+2018-10-31 18:07:38,612 INFO:Scrapping : http://www.bbc.com/travel/story/20181030-mexicos-bread-baked-for-spirits
+2018-10-31 18:07:38,612 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:38,616 DEBUG:[writeSocket - client.py, 259] Sending 3058 bytes to server
+2018-10-31 18:07:38,616 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:38,672 DEBUG:[readSocket - client.py, 270] Receiving 279 bytes from server
+2018-10-31 18:07:38,672 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20181030-belief-in-ghosts-may-help-you-lead-a-better-life
+2018-10-31 18:07:38,672 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:40,287 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:40,287 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/story/20181030-mexicos-bread-baked-for-spirits
+Code : 200
+Request time : 0.879819869995
+Bs time : 0.792903184891
+2018-10-31 18:07:40,288 DEBUG:[writeSocket - client.py, 259] Sending 709 bytes to server
+2018-10-31 18:07:40,288 INFO:Scrapping : https://www.bbc.com/news/world-europe-45902014
+2018-10-31 18:07:40,288 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:40,289 DEBUG:[writeSocket - client.py, 259] Sending 3804 bytes to server
+2018-10-31 18:07:40,289 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:40,357 DEBUG:[readSocket - client.py, 270] Receiving 236 bytes from server
+2018-10-31 18:07:40,357 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/world-europe-46030112
+2018-10-31 18:07:40,358 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:43,897 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:43,897 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/world-europe-45902014
+Code : 200
+Request time : 2.59584379196
+Bs time : 1.01069283485
+2018-10-31 18:07:43,897 INFO:Scrapping : https://www.bbc.com/news/world-us-canada-46012626
+2018-10-31 18:07:43,898 DEBUG:[writeSocket - client.py, 259] Sending 404 bytes to server
+2018-10-31 18:07:43,898 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:43,899 DEBUG:[writeSocket - client.py, 259] Sending 3068 bytes to server
+2018-10-31 18:07:43,899 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:43,969 DEBUG:[readSocket - client.py, 270] Receiving 260 bytes from server
+2018-10-31 18:07:43,969 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/story/20181025-why-is-seven-samurai-so-good
+2018-10-31 18:07:43,969 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:46,655 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:46,655 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/world-us-canada-46012626
+Code : 200
+Request time : 1.9944729805
+Bs time : 0.760153055191
+2018-10-31 18:07:46,655 DEBUG:[writeSocket - client.py, 259] Sending 352 bytes to server
+2018-10-31 18:07:46,655 INFO:Scrapping : https://www.bbc.com/news/business-45969676
+2018-10-31 18:07:46,656 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:46,657 DEBUG:[writeSocket - client.py, 259] Sending 3011 bytes to server
+2018-10-31 18:07:46,657 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:46,708 DEBUG:[readSocket - client.py, 270] Receiving 281 bytes from server
+2018-10-31 18:07:46,709 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films-who-voted
+2018-10-31 18:07:46,709 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:49,759 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:49,759 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-45969676
+Code : 200
+Request time : 1.71712493896
+Bs time : 1.38337087631
+2018-10-31 18:07:49,760 DEBUG:[writeSocket - client.py, 259] Sending 345 bytes to server
+2018-10-31 18:07:49,760 INFO:Scrapping : https://www.bbc.com/news/uk-46027266
+2018-10-31 18:07:49,760 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:49,761 DEBUG:[writeSocket - client.py, 259] Sending 2999 bytes to server
+2018-10-31 18:07:49,761 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:49,810 DEBUG:[readSocket - client.py, 270] Receiving 214 bytes from server
+2018-10-31 18:07:49,810 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/food
+2018-10-31 18:07:49,810 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:52,612 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:52,612 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/uk-46027266
+Code : 200
+Request time : 1.51802802086
+Bs time : 1.33215212822
+2018-10-31 18:07:52,613 DEBUG:[writeSocket - client.py, 259] Sending 339 bytes to server
+2018-10-31 18:07:52,613 INFO:Scrapping : http://www.bbc.com/future/story/20181030-belief-in-ghosts-may-help-you-lead-a-better-life
+2018-10-31 18:07:52,613 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:52,614 DEBUG:[writeSocket - client.py, 259] Sending 2987 bytes to server
+2018-10-31 18:07:52,615 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:52,670 DEBUG:[readSocket - client.py, 270] Receiving 226 bytes from server
+2018-10-31 18:07:52,670 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/uk-46026349
+2018-10-31 18:07:52,671 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:07:57,476 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:07:57,476 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/story/20181030-belief-in-ghosts-may-help-you-lead-a-better-life
+Code : 200
+Request time : 1.00440788269
+Bs time : 3.85587286949
+2018-10-31 18:07:57,477 DEBUG:[writeSocket - client.py, 259] Sending 904 bytes to server
+2018-10-31 18:07:57,477 INFO:Scrapping : https://www.bbc.com/news/world-europe-46030112
+2018-10-31 18:07:57,477 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:57,478 DEBUG:[writeSocket - client.py, 259] Sending 3821 bytes to server
+2018-10-31 18:07:57,478 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:07:57,548 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:07:57,548 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-45976006
+2018-10-31 18:07:57,548 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:05,740 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:05,741 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/world-europe-46030112
+Code : 200
+Request time : 2.41130399704
+Bs time : 5.84891414642
+2018-10-31 18:08:05,741 DEBUG:[writeSocket - client.py, 259] Sending 349 bytes to server
+2018-10-31 18:08:05,741 INFO:Scrapping : http://www.bbc.com/culture/story/20181025-why-is-seven-samurai-so-good
+2018-10-31 18:08:05,741 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:05,743 DEBUG:[writeSocket - client.py, 259] Sending 3004 bytes to server
+2018-10-31 18:08:05,743 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:05,797 DEBUG:[readSocket - client.py, 270] Receiving 233 bytes from server
+2018-10-31 18:08:05,797 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/education-45979234
+2018-10-31 18:08:05,797 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:10,429 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:10,429 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/story/20181025-why-is-seven-samurai-so-good
+Code : 200
+Request time : 2.93646192551
+Bs time : 1.74890112877
+2018-10-31 18:08:10,430 DEBUG:[writeSocket - client.py, 259] Sending 1158 bytes to server
+2018-10-31 18:08:10,430 INFO:Scrapping : http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films-who-voted
+2018-10-31 18:08:10,430 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:10,431 DEBUG:[writeSocket - client.py, 259] Sending 4056 bytes to server
+2018-10-31 18:08:10,431 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:10,493 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:08:10,494 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-45979780
+2018-10-31 18:08:10,494 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:14,605 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:14,605 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films-who-voted
+Code : 200
+Request time : 0.804827928543
+Bs time : 3.36396503448
+2018-10-31 18:08:14,605 DEBUG:[writeSocket - client.py, 259] Sending 1046 bytes to server
+2018-10-31 18:08:14,606 INFO:Scrapping : https://www.bbc.com/food
+2018-10-31 18:08:14,606 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:14,607 DEBUG:[writeSocket - client.py, 259] Sending 3966 bytes to server
+2018-10-31 18:08:14,608 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:14,678 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:08:14,678 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-11428889
+2018-10-31 18:08:14,678 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:18,397 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:18,397 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/food
+Code : 200
+Request time : 1.8069999218
+Bs time : 1.98164105415
+2018-10-31 18:08:18,397 DEBUG:[writeSocket - client.py, 259] Sending 779 bytes to server
+2018-10-31 18:08:18,398 INFO:Scrapping : https://www.bbc.com/news/uk-46026349
+2018-10-31 18:08:18,398 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:18,399 DEBUG:[writeSocket - client.py, 259] Sending 3535 bytes to server
+2018-10-31 18:08:18,400 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:18,472 DEBUG:[readSocket - client.py, 270] Receiving 216 bytes from server
+2018-10-31 18:08:18,472 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture
+2018-10-31 18:08:18,472 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:25,639 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:25,639 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/uk-46026349
+Code : 200
+Request time : 2.56414699554
+Bs time : 4.67458295822
+2018-10-31 18:08:25,640 DEBUG:[writeSocket - client.py, 259] Sending 339 bytes to server
+2018-10-31 18:08:25,640 INFO:Scrapping : https://www.bbc.com/news/business-45976006
+2018-10-31 18:08:25,640 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:25,641 DEBUG:[writeSocket - client.py, 259] Sending 2995 bytes to server
+2018-10-31 18:08:25,642 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:25,697 DEBUG:[readSocket - client.py, 270] Receiving 262 bytes from server
+2018-10-31 18:08:25,697 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/capital/story/20181030-why-type-a-isnt-really-a-thing
+2018-10-31 18:08:25,697 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:28,251 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:28,251 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-45976006
+Code : 200
+Request time : 1.86871385574
+Bs time : 0.738736152649
+2018-10-31 18:08:28,251 DEBUG:[writeSocket - client.py, 259] Sending 403 bytes to server
+2018-10-31 18:08:28,251 INFO:Scrapping : https://www.bbc.com/news/education-45979234
+2018-10-31 18:08:28,251 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:28,253 DEBUG:[writeSocket - client.py, 259] Sending 3054 bytes to server
+2018-10-31 18:08:28,253 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:28,316 DEBUG:[readSocket - client.py, 270] Receiving 243 bytes from server
+2018-10-31 18:08:28,317 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/science-environment-46024189
+2018-10-31 18:08:28,317 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:34,366 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:34,366 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/education-45979234
+Code : 200
+Request time : 2.37312507629
+Bs time : 3.73751711845
+2018-10-31 18:08:34,366 DEBUG:[writeSocket - client.py, 259] Sending 346 bytes to server
+2018-10-31 18:08:34,367 INFO:Scrapping : https://www.bbc.com/news/business-45979780
+2018-10-31 18:08:34,367 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:34,368 DEBUG:[writeSocket - client.py, 259] Sending 3001 bytes to server
+2018-10-31 18:08:34,368 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:34,426 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:08:34,427 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future
+2018-10-31 18:08:34,427 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:41,983 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:41,983 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-45979780
+Code : 200
+Request time : 2.0562620163
+Bs time : 5.55669903755
+2018-10-31 18:08:41,983 DEBUG:[writeSocket - client.py, 259] Sending 345 bytes to server
+2018-10-31 18:08:41,983 INFO:Scrapping : https://www.bbc.com/news/business-11428889
+2018-10-31 18:08:41,984 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:41,984 DEBUG:[writeSocket - client.py, 259] Sending 2997 bytes to server
+2018-10-31 18:08:41,985 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:42,043 DEBUG:[readSocket - client.py, 270] Receiving 272 bytes from server
+2018-10-31 18:08:42,043 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/gallery/20181026-the-25-greatest-foreign-language-films
+2018-10-31 18:08:42,043 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:45,961 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:45,961 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-11428889
+Code : 200
+Request time : 1.68929600716
+Bs time : 2.27430200577
+2018-10-31 18:08:45,962 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:08:45,962 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:45,963 DEBUG:[writeSocket - client.py, 259] Sending 2947 bytes to server
+2018-10-31 18:08:45,963 INFO:Scrapping : http://www.bbc.com/culture
+2018-10-31 18:08:45,963 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:46,017 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:08:46,017 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-46031652
+2018-10-31 18:08:46,017 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:47,354 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:47,354 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture
+Code : 200
+Request time : 0.596275091171
+Bs time : 0.791211843491
+2018-10-31 18:08:47,355 DEBUG:[writeSocket - client.py, 259] Sending 678 bytes to server
+2018-10-31 18:08:47,355 INFO:Scrapping : http://www.bbc.com/capital/story/20181030-why-type-a-isnt-really-a-thing
+2018-10-31 18:08:47,355 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:47,357 DEBUG:[writeSocket - client.py, 259] Sending 3529 bytes to server
+2018-10-31 18:08:47,357 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:47,402 DEBUG:[readSocket - client.py, 270] Receiving 269 bytes from server
+2018-10-31 18:08:47,403 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/story/20181028-an-indian-city-with-audacious-attitude
+2018-10-31 18:08:47,403 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:51,005 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:51,005 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/capital/story/20181030-why-type-a-isnt-really-a-thing
+Code : 200
+Request time : 0.801099061966
+Bs time : 2.84581112862
+2018-10-31 18:08:51,005 INFO:Scrapping : https://www.bbc.com/news/science-environment-46024189
+2018-10-31 18:08:51,006 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:08:51,007 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:51,008 DEBUG:[writeSocket - client.py, 259] Sending 3345 bytes to server
+2018-10-31 18:08:51,008 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:51,074 DEBUG:[readSocket - client.py, 270] Receiving 214 bytes from server
+2018-10-31 18:08:51,074 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel
+2018-10-31 18:08:51,074 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:55,635 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:55,636 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/science-environment-46024189
+Code : 200
+Request time : 1.92890501022
+Bs time : 2.69762587547
+2018-10-31 18:08:55,636 INFO:Scrapping : http://www.bbc.com/future
+2018-10-31 18:08:55,636 DEBUG:[writeSocket - client.py, 259] Sending 356 bytes to server
+2018-10-31 18:08:55,637 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:55,638 DEBUG:[writeSocket - client.py, 259] Sending 3029 bytes to server
+2018-10-31 18:08:55,638 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:55,710 DEBUG:[readSocket - client.py, 270] Receiving 230 bytes from server
+2018-10-31 18:08:55,711 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/news/world/asia/india
+2018-10-31 18:08:55,711 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:08:57,399 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:08:57,400 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future
+Code : 200
+Request time : 0.74817609787
+Bs time : 1.01274895668
+2018-10-31 18:08:57,400 DEBUG:[writeSocket - client.py, 259] Sending 629 bytes to server
+2018-10-31 18:08:57,400 INFO:Scrapping : http://www.bbc.com/culture/gallery/20181026-the-25-greatest-foreign-language-films
+2018-10-31 18:08:57,400 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:57,401 DEBUG:[writeSocket - client.py, 259] Sending 3479 bytes to server
+2018-10-31 18:08:57,401 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:08:57,457 DEBUG:[readSocket - client.py, 270] Receiving 225 bytes from server
+2018-10-31 18:08:57,458 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/designed
+2018-10-31 18:08:57,458 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:02,964 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:02,964 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/gallery/20181026-the-25-greatest-foreign-language-films
+Code : 200
+Request time : 0.988981962204
+Bs time : 4.5701918602
+2018-10-31 18:09:02,964 INFO:Scrapping : https://www.bbc.com/news/business-46031652
+2018-10-31 18:09:02,964 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:02,965 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:02,966 DEBUG:[writeSocket - client.py, 259] Sending 3355 bytes to server
+2018-10-31 18:09:02,966 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:03,027 DEBUG:[readSocket - client.py, 270] Receiving 257 bytes from server
+2018-10-31 18:09:03,028 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/tags/100-greatest-foreign-language-films
+2018-10-31 18:09:03,028 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:08,006 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:08,006 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-46031652
+Code : 200
+Request time : 2.31428194046
+Bs time : 2.72560811043
+2018-10-31 18:09:08,007 DEBUG:[writeSocket - client.py, 259] Sending 345 bytes to server
+2018-10-31 18:09:08,007 INFO:Scrapping : http://www.bbc.com/travel/story/20181028-an-indian-city-with-audacious-attitude
+2018-10-31 18:09:08,007 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:08,009 DEBUG:[writeSocket - client.py, 259] Sending 2998 bytes to server
+2018-10-31 18:09:08,009 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:08,056 DEBUG:[readSocket - client.py, 270] Receiving 282 bytes from server
+2018-10-31 18:09:08,057 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/story/20181024-the-luxurious-modernist-homes-of-hollywood-legends
+2018-10-31 18:09:08,057 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:09,296 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:09,297 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/story/20181028-an-indian-city-with-audacious-attitude
+Code : 200
+Request time : 0.580471992493
+Bs time : 0.706393003464
+2018-10-31 18:09:09,297 DEBUG:[writeSocket - client.py, 259] Sending 769 bytes to server
+2018-10-31 18:09:09,297 INFO:Scrapping : https://www.bbc.com/reel
+2018-10-31 18:09:09,297 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:09,299 DEBUG:[writeSocket - client.py, 259] Sending 3674 bytes to server
+2018-10-31 18:09:09,299 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:09,352 DEBUG:[readSocket - client.py, 270] Receiving 264 bytes from server
+2018-10-31 18:09:09,352 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20181029-why-the-flu-of-1918-was-so-deadly
+2018-10-31 18:09:09,352 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:12,100 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:12,100 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/reel
+Code : 200
+Request time : 2.26845407486
+Bs time : 0.532989025116
+2018-10-31 18:09:12,100 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:09:12,100 INFO:Scrapping : http://www.bbc.com/news/world/asia/india
+2018-10-31 18:09:12,100 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:12,102 DEBUG:[writeSocket - client.py, 259] Sending 3082 bytes to server
+2018-10-31 18:09:12,102 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:12,152 DEBUG:[readSocket - client.py, 270] Receiving 218 bytes from server
+2018-10-31 18:09:12,152 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/bitesize
+2018-10-31 18:09:12,152 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:15,311 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:15,311 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/news/world/asia/india
+Code : 200
+Request time : 2.50912499428
+Bs time : 0.697896003723
+2018-10-31 18:09:15,311 DEBUG:[writeSocket - client.py, 259] Sending 382 bytes to server
+2018-10-31 18:09:15,311 INFO:Scrapping : http://www.bbc.com/culture/designed
+2018-10-31 18:09:15,311 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:15,313 DEBUG:[writeSocket - client.py, 259] Sending 3277 bytes to server
+2018-10-31 18:09:15,313 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:15,374 DEBUG:[readSocket - client.py, 270] Receiving 246 bytes from server
+2018-10-31 18:09:15,374 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel/playlist/debunked?vpid=p06dntdd
+2018-10-31 18:09:15,375 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:17,949 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:17,949 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/designed
+Code : 200
+Request time : 1.27851986885
+Bs time : 1.35717105865
+2018-10-31 18:09:17,950 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:17,950 INFO:Scrapping : http://www.bbc.com/culture/tags/100-greatest-foreign-language-films
+2018-10-31 18:09:17,950 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:17,951 DEBUG:[writeSocket - client.py, 259] Sending 3506 bytes to server
+2018-10-31 18:09:17,951 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:18,023 DEBUG:[readSocket - client.py, 270] Receiving 235 bytes from server
+2018-10-31 18:09:18,023 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/capital/generation-project
+2018-10-31 18:09:18,023 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:19,610 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:19,610 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/tags/100-greatest-foreign-language-films
+Code : 200
+Request time : 0.868142127991
+Bs time : 0.790415048599
+2018-10-31 18:09:19,611 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:19,611 INFO:Scrapping : http://www.bbc.com/culture/story/20181024-the-luxurious-modernist-homes-of-hollywood-legends
+2018-10-31 18:09:19,611 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:19,613 DEBUG:[writeSocket - client.py, 259] Sending 3539 bytes to server
+2018-10-31 18:09:19,613 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:19,679 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:09:19,679 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/earth
+2018-10-31 18:09:19,679 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:21,207 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:21,208 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/story/20181024-the-luxurious-modernist-homes-of-hollywood-legends
+Code : 200
+Request time : 0.618236064911
+Bs time : 0.976938009262
+2018-10-31 18:09:21,208 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:21,208 INFO:Scrapping : http://www.bbc.com/future/story/20181029-why-the-flu-of-1918-was-so-deadly
+2018-10-31 18:09:21,208 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:21,209 DEBUG:[writeSocket - client.py, 259] Sending 3433 bytes to server
+2018-10-31 18:09:21,210 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:21,275 DEBUG:[readSocket - client.py, 270] Receiving 280 bytes from server
+2018-10-31 18:09:21,276 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/capital/story/20181024-the-people-changing-retirement-with-side-hustles
+2018-10-31 18:09:21,276 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:22,903 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:22,903 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/story/20181029-why-the-flu-of-1918-was-so-deadly
+Code : 200
+Request time : 0.572960138321
+Bs time : 1.11935591698
+2018-10-31 18:09:22,904 DEBUG:[writeSocket - client.py, 259] Sending 881 bytes to server
+2018-10-31 18:09:22,904 INFO:Scrapping : https://www.bbc.com/bitesize
+2018-10-31 18:09:22,904 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:22,905 DEBUG:[writeSocket - client.py, 259] Sending 3852 bytes to server
+2018-10-31 18:09:22,906 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:22,961 DEBUG:[readSocket - client.py, 270] Receiving 232 bytes from server
+2018-10-31 18:09:22,961 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-22449886
+2018-10-31 18:09:22,962 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:29,025 INFO:Scrapping failed - Un-handled
+2018-10-31 18:09:29,026 ERROR:
+Traceback (most recent call last):
+  File "/home/anumeha/Documents/Zeek/src/modules/scrapping.py", line 83, in visit
+    bs = BeautifulSoup(data)
+  File "/home/anumeha/.local/lib/python2.7/site-packages/bs4/__init__.py", line 245, in __init__
+    markup = markup.read()
+  File "/usr/lib/python2.7/socket.py", line 355, in read
+    data = self._sock.recv(rbufsize)
+  File "/usr/lib/python2.7/httplib.py", line 588, in read
+    return self._read_chunked(amt)
+  File "/usr/lib/python2.7/httplib.py", line 630, in _read_chunked
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "/usr/lib/python2.7/ssl.py", line 756, in recv
+    return self.read(buflen)
+  File "/usr/lib/python2.7/ssl.py", line 643, in read
+    v = self._sslobj.read(len)
+SSLError: ('The read operation timed out',)
+
+2018-10-31 18:09:29,026 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/bitesize
+Code : -100
+Request time : 0
+Bs time : 
+2018-10-31 18:09:29,026 INFO:Skipping URL : https://www.bbc.com/bitesize
+2018-10-31 18:09:29,026 DEBUG:[writeSocket - client.py, 259] Sending 534 bytes to server
+2018-10-31 18:09:29,026 INFO:Scrapping : https://www.bbc.com/reel/playlist/debunked?vpid=p06dntdd
+2018-10-31 18:09:29,027 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:29,041 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:09:29,042 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel
+2018-10-31 18:09:29,042 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:30,551 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:30,551 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/reel/playlist/debunked?vpid=p06dntdd
+Code : 200
+Request time : 0.884771108627
+Bs time : 0.637915849686
+2018-10-31 18:09:30,552 DEBUG:[writeSocket - client.py, 259] Sending 329 bytes to server
+2018-10-31 18:09:30,552 INFO:Scrapping : http://www.bbc.com/capital/generation-project
+2018-10-31 18:09:30,552 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:30,553 DEBUG:[writeSocket - client.py, 259] Sending 3016 bytes to server
+2018-10-31 18:09:30,553 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:30,607 DEBUG:[readSocket - client.py, 270] Receiving 281 bytes from server
+2018-10-31 18:09:30,607 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/reel/video/p06q8j6z/an-exclusive-visit-to-the-world-s-only-mummy-school
+2018-10-31 18:09:30,607 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:32,335 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:32,336 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/capital/generation-project
+Code : 200
+Request time : 0.737854957581
+Bs time : 1.04219412804
+2018-10-31 18:09:32,336 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:32,336 INFO:Scrapping : https://www.bbc.com/earth
+2018-10-31 18:09:32,336 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:32,338 DEBUG:[writeSocket - client.py, 259] Sending 3386 bytes to server
+2018-10-31 18:09:32,338 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:32,384 DEBUG:[readSocket - client.py, 270] Receiving 217 bytes from server
+2018-10-31 18:09:32,384 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/capital/
+2018-10-31 18:09:32,384 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:34,882 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:34,882 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/earth
+Code : 200
+Request time : 1.73865509033
+Bs time : 0.80481505394
+2018-10-31 18:09:34,882 DEBUG:[writeSocket - client.py, 259] Sending 507 bytes to server
+2018-10-31 18:09:34,882 INFO:Scrapping : http://www.bbc.com/capital/story/20181024-the-people-changing-retirement-with-side-hustles
+2018-10-31 18:09:34,882 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:34,883 DEBUG:[writeSocket - client.py, 259] Sending 3439 bytes to server
+2018-10-31 18:09:34,884 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:34,942 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:09:34,943 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/autos/
+2018-10-31 18:09:34,943 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:36,363 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:36,363 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/capital/story/20181024-the-people-changing-retirement-with-side-hustles
+Code : 200
+Request time : 0.447194099426
+Bs time : 1.03040790558
+2018-10-31 18:09:36,363 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:36,364 INFO:Scrapping : https://www.bbc.com/news/business-22449886
+2018-10-31 18:09:36,364 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:36,366 DEBUG:[writeSocket - client.py, 259] Sending 3449 bytes to server
+2018-10-31 18:09:36,366 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:36,417 DEBUG:[readSocket - client.py, 270] Receiving 216 bytes from server
+2018-10-31 18:09:36,417 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/
+2018-10-31 18:09:36,418 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:38,168 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:38,168 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-22449886
+Code : 200
+Request time : 0.769596815109
+Bs time : 1.02419400215
+2018-10-31 18:09:38,168 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:09:38,168 INFO:Scrapping : http://www.bbc.com/travel
+2018-10-31 18:09:38,169 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:38,170 DEBUG:[writeSocket - client.py, 259] Sending 3197 bytes to server
+2018-10-31 18:09:38,170 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:38,224 DEBUG:[readSocket - client.py, 270] Receiving 213 bytes from server
+2018-10-31 18:09:38,224 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/news
+2018-10-31 18:09:38,224 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:39,501 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:39,502 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel
+Code : 200
+Request time : 0.363595962524
+Bs time : 0.964014053345
+2018-10-31 18:09:39,502 DEBUG:[writeSocket - client.py, 259] Sending 689 bytes to server
+2018-10-31 18:09:39,502 INFO:Scrapping : https://www.bbc.com/reel/video/p06q8j6z/an-exclusive-visit-to-the-world-s-only-mummy-school
+2018-10-31 18:09:39,502 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:39,503 DEBUG:[writeSocket - client.py, 259] Sending 3602 bytes to server
+2018-10-31 18:09:39,504 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:39,549 DEBUG:[readSocket - client.py, 270] Receiving 216 bytes from server
+2018-10-31 18:09:39,550 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/
+2018-10-31 18:09:39,550 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:40,861 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:40,862 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/reel/video/p06q8j6z/an-exclusive-visit-to-the-world-s-only-mummy-school
+Code : 200
+Request time : 0.849252939224
+Bs time : 0.508139133453
+2018-10-31 18:09:40,862 DEBUG:[writeSocket - client.py, 259] Sending 328 bytes to server
+2018-10-31 18:09:40,862 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:40,862 INFO:Scrapping : http://www.bbc.com/capital/
+2018-10-31 18:09:40,863 DEBUG:[writeSocket - client.py, 259] Sending 2781 bytes to server
+2018-10-31 18:09:40,864 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:40,935 DEBUG:[readSocket - client.py, 270] Receiving 217 bytes from server
+2018-10-31 18:09:40,935 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/
+2018-10-31 18:09:40,935 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:42,332 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:42,332 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/capital/
+Code : 200
+Request time : 0.591361999512
+Bs time : 0.874881982803
+2018-10-31 18:09:42,332 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:09:42,332 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:42,333 INFO:Scrapping : http://www.bbc.com/autos/
+2018-10-31 18:09:42,333 DEBUG:[writeSocket - client.py, 259] Sending 3301 bytes to server
+2018-10-31 18:09:42,334 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:42,381 DEBUG:[readSocket - client.py, 270] Receiving 215 bytes from server
+2018-10-31 18:09:42,381 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/earth/
+2018-10-31 18:09:42,381 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:43,616 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:43,616 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/autos/
+Code : 200
+Request time : 0.360649108887
+Bs time : 0.917876958847
+2018-10-31 18:09:43,616 DEBUG:[writeSocket - client.py, 259] Sending 501 bytes to server
+2018-10-31 18:09:43,616 INFO:Scrapping : http://www.bbc.com/future/
+2018-10-31 18:09:43,617 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:43,618 DEBUG:[writeSocket - client.py, 259] Sending 3411 bytes to server
+2018-10-31 18:09:43,618 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:43,676 DEBUG:[readSocket - client.py, 270] Receiving 239 bytes from server
+2018-10-31 18:09:43,676 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/health-46031332/comments
+2018-10-31 18:09:43,676 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:45,052 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:45,052 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/
+Code : 200
+Request time : 0.673238039017
+Bs time : 0.759257078171
+2018-10-31 18:09:45,053 INFO:Scrapping : http://www.bbc.com/news
+2018-10-31 18:09:45,053 DEBUG:[writeSocket - client.py, 259] Sending 629 bytes to server
+2018-10-31 18:09:45,054 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:45,054 DEBUG:[writeSocket - client.py, 259] Sending 3481 bytes to server
+2018-10-31 18:09:45,054 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:45,122 DEBUG:[readSocket - client.py, 270] Receiving 241 bytes from server
+2018-10-31 18:09:45,122 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-46028792/comments
+2018-10-31 18:09:45,122 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:53,122 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:53,123 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/news
+Code : 200
+Request time : 2.25808691978
+Bs time : 5.80817103386
+2018-10-31 18:09:53,123 DEBUG:[writeSocket - client.py, 259] Sending 1078 bytes to server
+2018-10-31 18:09:53,123 INFO:Scrapping : http://www.bbc.com/travel/
+2018-10-31 18:09:53,123 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:53,125 DEBUG:[writeSocket - client.py, 259] Sending 3478 bytes to server
+2018-10-31 18:09:53,125 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:53,188 DEBUG:[readSocket - client.py, 270] Receiving 269 bytes from server
+2018-10-31 18:09:53,189 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/story/20171026-why-romanians-are-obsessed-with-garlic
+2018-10-31 18:09:53,189 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:54,422 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:54,422 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/
+Code : 200
+Request time : 0.571313142776
+Bs time : 0.724590063095
+2018-10-31 18:09:54,423 DEBUG:[writeSocket - client.py, 259] Sending 689 bytes to server
+2018-10-31 18:09:54,423 INFO:Scrapping : http://www.bbc.com/culture/
+2018-10-31 18:09:54,423 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:54,425 DEBUG:[writeSocket - client.py, 259] Sending 3541 bytes to server
+2018-10-31 18:09:54,425 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:54,483 DEBUG:[readSocket - client.py, 270] Receiving 267 bytes from server
+2018-10-31 18:09:54,484 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/gallery/20171030-galicias-mythic-drink-of-blue-fire
+2018-10-31 18:09:54,484 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:55,518 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:55,518 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/
+Code : 200
+Request time : 0.34886097908
+Bs time : 0.742956876755
+2018-10-31 18:09:55,518 DEBUG:[writeSocket - client.py, 259] Sending 678 bytes to server
+2018-10-31 18:09:55,519 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:55,519 INFO:Scrapping : http://www.bbc.com/earth/
+2018-10-31 18:09:55,519 DEBUG:[writeSocket - client.py, 259] Sending 3591 bytes to server
+2018-10-31 18:09:55,520 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:55,568 DEBUG:[readSocket - client.py, 270] Receiving 270 bytes from server
+2018-10-31 18:09:55,568 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/gallery/20171025-kyrgyzstans-bread-that-feeds-the-dead
+2018-10-31 18:09:55,568 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:09:59,584 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:09:59,584 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/earth/
+Code : 200
+Request time : 1.25346803665
+Bs time : 2.80854392052
+2018-10-31 18:09:59,585 DEBUG:[writeSocket - client.py, 259] Sending 507 bytes to server
+2018-10-31 18:09:59,585 INFO:Scrapping : https://www.bbc.com/news/health-46031332/comments
+2018-10-31 18:09:59,585 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:59,586 DEBUG:[writeSocket - client.py, 259] Sending 3355 bytes to server
+2018-10-31 18:09:59,586 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:09:59,631 DEBUG:[readSocket - client.py, 270] Receiving 238 bytes from server
+2018-10-31 18:09:59,631 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/blogs-trending-44397191
+2018-10-31 18:09:59,631 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:01,351 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:01,351 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/health-46031332/comments
+Code : 200
+Request time : 1.26770210266
+Bs time : 0.49612402916
+2018-10-31 18:10:01,351 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:10:01,352 INFO:Scrapping : https://www.bbc.com/news/business-46028792/comments
+2018-10-31 18:10:01,352 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:01,353 DEBUG:[writeSocket - client.py, 259] Sending 2953 bytes to server
+2018-10-31 18:10:01,354 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:01,408 DEBUG:[readSocket - client.py, 270] Receiving 281 bytes from server
+2018-10-31 18:10:01,408 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20181009-how-sleep-helps-with-emotional-recovery-and-trauma
+2018-10-31 18:10:01,408 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:03,322 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:03,323 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-46028792/comments
+Code : 200
+Request time : 1.40074682236
+Bs time : 0.567610025406
+2018-10-31 18:10:03,323 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:10:03,323 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:03,323 INFO:Scrapping : http://www.bbc.com/travel/story/20171026-why-romanians-are-obsessed-with-garlic
+2018-10-31 18:10:03,324 DEBUG:[writeSocket - client.py, 259] Sending 2957 bytes to server
+2018-10-31 18:10:03,325 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:03,366 DEBUG:[readSocket - client.py, 270] Receiving 219 bytes from server
+2018-10-31 18:10:03,366 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/now
+2018-10-31 18:10:03,366 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:04,694 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:04,694 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/story/20171026-why-romanians-are-obsessed-with-garlic
+Code : 200
+Request time : 0.631109952927
+Bs time : 0.736824989319
+2018-10-31 18:10:04,694 DEBUG:[writeSocket - client.py, 259] Sending 753 bytes to server
+2018-10-31 18:10:04,694 INFO:Scrapping : http://www.bbc.com/travel/gallery/20171030-galicias-mythic-drink-of-blue-fire
+2018-10-31 18:10:04,694 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:04,696 DEBUG:[writeSocket - client.py, 259] Sending 3658 bytes to server
+2018-10-31 18:10:04,696 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:04,751 DEBUG:[readSocket - client.py, 270] Receiving 233 bytes from server
+2018-10-31 18:10:04,751 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/tags/future-video
+2018-10-31 18:10:04,751 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:06,043 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:06,043 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/gallery/20171030-galicias-mythic-drink-of-blue-fire
+Code : 200
+Request time : 0.587067842484
+Bs time : 0.758546829224
+2018-10-31 18:10:06,043 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:10:06,043 INFO:Scrapping : http://www.bbc.com/travel/gallery/20171025-kyrgyzstans-bread-that-feeds-the-dead
+2018-10-31 18:10:06,043 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:06,045 DEBUG:[writeSocket - client.py, 259] Sending 3351 bytes to server
+2018-10-31 18:10:06,045 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:06,106 DEBUG:[readSocket - client.py, 270] Receiving 282 bytes from server
+2018-10-31 18:10:06,106 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20180110-the-camera-tricks-that-will-help-you-summon-a-ghost
+2018-10-31 18:10:06,107 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:10,078 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:10,079 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/gallery/20171025-kyrgyzstans-bread-that-feeds-the-dead
+Code : 200
+Request time : 0.874319076538
+Bs time : 3.1581890583
+2018-10-31 18:10:10,079 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:10:10,079 INFO:Scrapping : https://www.bbc.com/news/blogs-trending-44397191
+2018-10-31 18:10:10,079 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:10,081 DEBUG:[writeSocket - client.py, 259] Sending 3353 bytes to server
+2018-10-31 18:10:10,082 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:10,138 DEBUG:[readSocket - client.py, 270] Receiving 261 bytes from server
+2018-10-31 18:10:10,139 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20141030-the-truth-about-the-paranormal
+2018-10-31 18:10:10,139 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:12,331 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:12,331 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/blogs-trending-44397191
+Code : 200
+Request time : 1.50948905945
+Bs time : 0.738409042358
+2018-10-31 18:10:12,331 DEBUG:[writeSocket - client.py, 259] Sending 351 bytes to server
+2018-10-31 18:10:12,331 INFO:Scrapping : http://www.bbc.com/future/story/20181009-how-sleep-helps-with-emotional-recovery-and-trauma
+2018-10-31 18:10:12,332 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:12,333 DEBUG:[writeSocket - client.py, 259] Sending 3011 bytes to server
+2018-10-31 18:10:12,333 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:12,396 DEBUG:[readSocket - client.py, 270] Receiving 242 bytes from server
+2018-10-31 18:10:12,396 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/columns/best-of-bbc-future
+2018-10-31 18:10:12,397 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:13,692 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:13,692 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/story/20181009-how-sleep-helps-with-emotional-recovery-and-trauma
+Code : 200
+Request time : 0.606436014175
+Bs time : 0.749933004379
+2018-10-31 18:10:13,692 DEBUG:[writeSocket - client.py, 259] Sending 1265 bytes to server
+2018-10-31 18:10:13,692 INFO:Scrapping : http://www.bbc.com/future/now
+2018-10-31 18:10:13,692 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:13,696 DEBUG:[writeSocket - client.py, 259] Sending 4188 bytes to server
+2018-10-31 18:10:13,696 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:13,751 DEBUG:[readSocket - client.py, 270] Receiving 255 bytes from server
+2018-10-31 18:10:13,752 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/event/20180521-stockholm-film-festival
+2018-10-31 18:10:13,752 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:27,796 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:27,796 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/now
+Code : 200
+Request time : 1.49618291855
+Bs time : 12.6052889824
+2018-10-31 18:10:27,796 DEBUG:[writeSocket - client.py, 259] Sending 629 bytes to server
+2018-10-31 18:10:27,796 INFO:Scrapping : http://www.bbc.com/future/tags/future-video
+2018-10-31 18:10:27,797 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:27,797 DEBUG:[writeSocket - client.py, 259] Sending 3483 bytes to server
+2018-10-31 18:10:27,798 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:27,867 DEBUG:[readSocket - client.py, 270] Receiving 271 bytes from server
+2018-10-31 18:10:27,867 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films
+2018-10-31 18:10:27,867 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:29,650 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:29,650 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/tags/future-video
+Code : 200
+Request time : 0.516335964203
+Bs time : 1.33350014687
+2018-10-31 18:10:29,650 DEBUG:[writeSocket - client.py, 259] Sending 629 bytes to server
+2018-10-31 18:10:29,651 INFO:Scrapping : http://www.bbc.com/future/story/20180110-the-camera-tricks-that-will-help-you-summon-a-ghost
+2018-10-31 18:10:29,651 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:29,652 DEBUG:[writeSocket - client.py, 259] Sending 3557 bytes to server
+2018-10-31 18:10:29,652 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:29,703 DEBUG:[readSocket - client.py, 270] Receiving 252 bytes from server
+2018-10-31 18:10:29,704 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/event/20181016-photo-vogue-festival
+2018-10-31 18:10:29,704 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:30,985 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:30,985 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/story/20180110-the-camera-tricks-that-will-help-you-summon-a-ghost
+Code : 200
+Request time : 0.588303089142
+Bs time : 0.743097066879
+2018-10-31 18:10:30,986 DEBUG:[writeSocket - client.py, 259] Sending 720 bytes to server
+2018-10-31 18:10:30,986 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:30,986 INFO:Scrapping : http://www.bbc.com/future/story/20141030-the-truth-about-the-paranormal
+2018-10-31 18:10:30,987 DEBUG:[writeSocket - client.py, 259] Sending 3639 bytes to server
+2018-10-31 18:10:30,988 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:31,058 DEBUG:[readSocket - client.py, 270] Receiving 268 bytes from server
+2018-10-31 18:10:31,058 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/event/20180920-franz-schubert-chamber-music-concert
+2018-10-31 18:10:31,059 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:33,977 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:33,977 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/story/20141030-the-truth-about-the-paranormal
+Code : 200
+Request time : 0.892223119736
+Bs time : 2.09511804581
+2018-10-31 18:10:33,977 DEBUG:[writeSocket - client.py, 259] Sending 629 bytes to server
+2018-10-31 18:10:33,977 INFO:Scrapping : http://www.bbc.com/future/columns/best-of-bbc-future
+2018-10-31 18:10:33,978 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:33,979 DEBUG:[writeSocket - client.py, 259] Sending 3526 bytes to server
+2018-10-31 18:10:33,979 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:34,038 DEBUG:[readSocket - client.py, 270] Receiving 284 bytes from server
+2018-10-31 18:10:34,039 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/story/20181029-why-are-women-directors-excluded-from-cinema-history
+2018-10-31 18:10:34,039 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:39,347 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:39,347 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/future/columns/best-of-bbc-future
+Code : 200
+Request time : 1.28021597862
+Bs time : 4.08629798889
+2018-10-31 18:10:39,348 INFO:Scrapping : http://www.bbc.com/culture/event/20180521-stockholm-film-festival
+2018-10-31 18:10:39,348 DEBUG:[writeSocket - client.py, 259] Sending 629 bytes to server
+2018-10-31 18:10:39,349 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:39,350 DEBUG:[writeSocket - client.py, 259] Sending 3506 bytes to server
+2018-10-31 18:10:39,350 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:39,396 DEBUG:[readSocket - client.py, 270] Receiving 287 bytes from server
+2018-10-31 18:10:39,396 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/culture/story/20181029-twelve-amazing-lesser-known-films-from-around-the-world
+2018-10-31 18:10:39,396 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:40,640 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:40,640 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/event/20180521-stockholm-film-festival
+Code : 200
+Request time : 0.576040029526
+Bs time : 0.714786052704
+2018-10-31 18:10:40,641 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:10:40,641 INFO:Scrapping : http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films
+2018-10-31 18:10:40,644 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:40,645 DEBUG:[writeSocket - client.py, 259] Sending 3339 bytes to server
+2018-10-31 18:10:40,645 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:40,694 DEBUG:[readSocket - client.py, 270] Receiving 220 bytes from server
+2018-10-31 18:10:40,694 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/food/pasta
+2018-10-31 18:10:40,694 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:45,333 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:45,333 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films
+Code : 200
+Request time : 0.855255126953
+Bs time : 3.83299088478
+2018-10-31 18:10:45,334 DEBUG:[writeSocket - client.py, 259] Sending 1398 bytes to server
+2018-10-31 18:10:45,334 INFO:Scrapping : http://www.bbc.com/culture/event/20181016-photo-vogue-festival
+2018-10-31 18:10:45,334 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:45,335 DEBUG:[writeSocket - client.py, 259] Sending 4310 bytes to server
+2018-10-31 18:10:45,336 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:45,391 DEBUG:[readSocket - client.py, 270] Receiving 230 bytes from server
+2018-10-31 18:10:45,391 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/food/diets/vegetarian
+2018-10-31 18:10:45,391 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:48,816 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:48,817 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/event/20181016-photo-vogue-festival
+Code : 200
+Request time : 0.746973991394
+Bs time : 2.73369812965
+2018-10-31 18:10:48,817 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:10:48,817 INFO:Scrapping : http://www.bbc.com/culture/event/20180920-franz-schubert-chamber-music-concert
+2018-10-31 18:10:48,818 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:48,819 DEBUG:[writeSocket - client.py, 259] Sending 3335 bytes to server
+2018-10-31 18:10:48,819 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:48,884 DEBUG:[readSocket - client.py, 270] Receiving 230 bytes from server
+2018-10-31 18:10:48,884 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/food/diets/dairy_free
+2018-10-31 18:10:48,884 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:50,046 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:50,046 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/event/20180920-franz-schubert-chamber-music-concert
+Code : 200
+Request time : 0.501461029053
+Bs time : 0.726155042648
+2018-10-31 18:10:50,047 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:10:50,047 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:50,048 DEBUG:[writeSocket - client.py, 259] Sending 3352 bytes to server
+2018-10-31 18:10:50,048 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:50,048 INFO:Scrapping : http://www.bbc.com/culture/story/20181029-why-are-women-directors-excluded-from-cinema-history
+2018-10-31 18:10:50,119 DEBUG:[readSocket - client.py, 270] Receiving 237 bytes from server
+2018-10-31 18:10:50,119 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/food/diets/low-calorie_diet
+2018-10-31 18:10:50,119 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:51,549 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:51,549 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/story/20181029-why-are-women-directors-excluded-from-cinema-history
+Code : 200
+Request time : 0.598478078842
+Bs time : 0.900474071503
+2018-10-31 18:10:51,549 DEBUG:[writeSocket - client.py, 259] Sending 1220 bytes to server
+2018-10-31 18:10:51,549 INFO:Scrapping : http://www.bbc.com/culture/story/20181029-twelve-amazing-lesser-known-films-from-around-the-world
+2018-10-31 18:10:51,550 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:51,551 DEBUG:[writeSocket - client.py, 259] Sending 4145 bytes to server
+2018-10-31 18:10:51,551 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:51,624 DEBUG:[readSocket - client.py, 270] Receiving 231 bytes from server
+2018-10-31 18:10:51,625 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/food/diets/gluten_free
+2018-10-31 18:10:51,625 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:52,906 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:52,906 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/culture/story/20181029-twelve-amazing-lesser-known-films-from-around-the-world
+Code : 200
+Request time : 0.628041028976
+Bs time : 0.725583076477
+2018-10-31 18:10:52,906 DEBUG:[writeSocket - client.py, 259] Sending 452 bytes to server
+2018-10-31 18:10:52,906 INFO:Scrapping : https://www.bbc.com/food/pasta
+2018-10-31 18:10:52,907 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:52,908 DEBUG:[writeSocket - client.py, 259] Sending 3371 bytes to server
+2018-10-31 18:10:52,909 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:52,980 DEBUG:[readSocket - client.py, 270] Receiving 251 bytes from server
+2018-10-31 18:10:52,980 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/food/collections/halloween_baking_recipes
+2018-10-31 18:10:52,980 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:56,482 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:56,482 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/food/pasta
+Code : 200
+Request time : 1.32596111298
+Bs time : 2.24582195282
+2018-10-31 18:10:56,482 INFO:Scrapping : http://www.bbc.com/food/diets/vegetarian
+2018-10-31 18:10:56,483 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:10:56,483 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:56,484 DEBUG:[writeSocket - client.py, 259] Sending 3047 bytes to server
+2018-10-31 18:10:56,485 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:56,531 DEBUG:[readSocket - client.py, 270] Receiving 242 bytes from server
+2018-10-31 18:10:56,531 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/food/collections/breaded_chicken
+2018-10-31 18:10:56,531 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:10:58,434 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:10:58,434 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/food/diets/vegetarian
+Code : 200
+Request time : 1.59254598618
+Bs time : 0.357819080353
+2018-10-31 18:10:58,435 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:10:58,435 INFO:Scrapping : http://www.bbc.com/food/diets/dairy_free
+2018-10-31 18:10:58,435 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:58,436 DEBUG:[writeSocket - client.py, 259] Sending 3055 bytes to server
+2018-10-31 18:10:58,436 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:10:58,489 DEBUG:[readSocket - client.py, 270] Receiving 227 bytes from server
+2018-10-31 18:10:58,489 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/food/diets/healthy
+2018-10-31 18:10:58,489 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:00,059 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:00,059 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/food/diets/dairy_free
+Code : 200
+Request time : 1.2670571804
+Bs time : 0.355924844742
+2018-10-31 18:11:00,059 DEBUG:[writeSocket - client.py, 259] Sending 689 bytes to server
+2018-10-31 18:11:00,059 INFO:Scrapping : https://www.bbc.com/food/diets/low-calorie_diet
+2018-10-31 18:11:00,059 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:00,060 DEBUG:[writeSocket - client.py, 259] Sending 3455 bytes to server
+2018-10-31 18:11:00,061 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:00,116 DEBUG:[readSocket - client.py, 270] Receiving 225 bytes from server
+2018-10-31 18:11:00,116 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/food/diets/vegan
+2018-10-31 18:11:00,116 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:01,357 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:01,357 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/food/diets/low-calorie_diet
+Code : 200
+Request time : 0.799499034882
+Bs time : 0.496218919754
+2018-10-31 18:11:01,358 DEBUG:[writeSocket - client.py, 259] Sending 414 bytes to server
+2018-10-31 18:11:01,358 INFO:Scrapping : http://www.bbc.com/food/diets/gluten_free
+2018-10-31 18:11:01,358 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:01,359 DEBUG:[writeSocket - client.py, 259] Sending 3184 bytes to server
+2018-10-31 18:11:01,359 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:01,411 DEBUG:[readSocket - client.py, 270] Receiving 220 bytes from server
+2018-10-31 18:11:01,411 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/food/pasty
+2018-10-31 18:11:01,411 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:03,159 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:03,160 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/food/diets/gluten_free
+Code : 200
+Request time : 1.45819497108
+Bs time : 0.34163403511
+2018-10-31 18:11:03,160 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:11:03,160 INFO:Scrapping : https://www.bbc.com/food/collections/halloween_baking_recipes
+2018-10-31 18:11:03,161 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:03,161 DEBUG:[writeSocket - client.py, 259] Sending 3058 bytes to server
+2018-10-31 18:11:03,162 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:03,218 DEBUG:[readSocket - client.py, 270] Receiving 241 bytes from server
+2018-10-31 18:11:03,218 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : https://www.bbc.com/news/business-45976006/comments
+2018-10-31 18:11:03,218 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:04,278 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:04,278 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/food/collections/halloween_baking_recipes
+Code : 200
+Request time : 0.745762825012
+Bs time : 0.369829177856
+2018-10-31 18:11:04,278 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:11:04,278 INFO:Scrapping : https://www.bbc.com/food/collections/breaded_chicken
+2018-10-31 18:11:04,279 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:04,280 DEBUG:[writeSocket - client.py, 259] Sending 3134 bytes to server
+2018-10-31 18:11:04,280 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:04,333 DEBUG:[readSocket - client.py, 270] Receiving 266 bytes from server
+2018-10-31 18:11:04,333 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/story/20180722-cracking-indias-mystifying-nod-code
+2018-10-31 18:11:04,333 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:06,355 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:06,355 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/food/collections/breaded_chicken
+Code : 200
+Request time : 1.40096688271
+Bs time : 0.673652172089
+2018-10-31 18:11:06,355 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:11:06,355 INFO:Scrapping : http://www.bbc.com/food/diets/healthy
+2018-10-31 18:11:06,355 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:06,357 DEBUG:[writeSocket - client.py, 259] Sending 3067 bytes to server
+2018-10-31 18:11:06,357 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:06,411 DEBUG:[readSocket - client.py, 270] Receiving 246 bytes from server
+2018-10-31 18:11:06,411 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/columns/why-we-are-what-we-are
+2018-10-31 18:11:06,412 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:08,434 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:08,434 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/food/diets/healthy
+Code : 200
+Request time : 1.50696086884
+Bs time : 0.569039106369
+2018-10-31 18:11:08,434 DEBUG:[writeSocket - client.py, 259] Sending 2361 bytes to server
+2018-10-31 18:11:08,434 INFO:Scrapping : http://www.bbc.com/food/diets/vegan
+2018-10-31 18:11:08,434 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:08,436 DEBUG:[writeSocket - client.py, 259] Sending 5152 bytes to server
+2018-10-31 18:11:08,436 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:08,489 DEBUG:[readSocket - client.py, 270] Receiving 264 bytes from server
+2018-10-31 18:11:08,489 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/story/20180131-where-dutch-directness-comes-from
+2018-10-31 18:11:08,489 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:11,921 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:11,921 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/food/diets/vegan
+Code : 200
+Request time : 1.98606085777
+Bs time : 1.49932789803
+2018-10-31 18:11:11,922 DEBUG:[writeSocket - client.py, 259] Sending 946 bytes to server
+2018-10-31 18:11:11,922 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:11,922 INFO:Scrapping : https://www.bbc.com/food/pasty
+2018-10-31 18:11:11,923 DEBUG:[writeSocket - client.py, 259] Sending 3713 bytes to server
+2018-10-31 18:11:11,923 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:11,982 DEBUG:[readSocket - client.py, 270] Receiving 273 bytes from server
+2018-10-31 18:11:11,983 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/travel/story/20181016-how-the-finnish-survive-without-small-talk
+2018-10-31 18:11:11,983 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:13,126 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:13,127 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/food/pasty
+Code : 200
+Request time : 0.836436033249
+Bs time : 0.36604309082
+2018-10-31 18:11:13,127 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:11:13,127 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:13,128 DEBUG:[writeSocket - client.py, 259] Sending 3046 bytes to server
+2018-10-31 18:11:13,128 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:13,127 INFO:Scrapping : https://www.bbc.com/news/business-45976006/comments
+2018-10-31 18:11:13,188 DEBUG:[readSocket - client.py, 270] Receiving 272 bytes from server
+2018-10-31 18:11:13,189 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20181016-the-flu-that-transformed-the-20th-century
+2018-10-31 18:11:13,189 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:14,794 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:14,794 DEBUG:[crawlingThread - client.py, 199] Session 
+https://www.bbc.com/news/business-45976006/comments
+Code : 200
+Request time : 1.10302495956
+Bs time : 0.560720920563
+2018-10-31 18:11:14,794 DEBUG:[writeSocket - client.py, 259] Sending 296 bytes to server
+2018-10-31 18:11:14,795 INFO:Scrapping : http://www.bbc.com/travel/story/20180722-cracking-indias-mystifying-nod-code
+2018-10-31 18:11:14,795 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:14,795 DEBUG:[writeSocket - client.py, 259] Sending 2966 bytes to server
+2018-10-31 18:11:14,796 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:14,845 DEBUG:[readSocket - client.py, 270] Receiving 270 bytes from server
+2018-10-31 18:11:14,846 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20181023-the-places-that-escaped-the-spanish-flu
+2018-10-31 18:11:14,846 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:17,496 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:17,496 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/story/20180722-cracking-indias-mystifying-nod-code
+Code : 200
+Request time : 0.897186040878
+Bs time : 1.80119991302
+2018-10-31 18:11:17,497 DEBUG:[writeSocket - client.py, 259] Sending 818 bytes to server
+2018-10-31 18:11:17,497 INFO:Scrapping : http://www.bbc.com/travel/columns/why-we-are-what-we-are
+2018-10-31 18:11:17,497 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:17,499 DEBUG:[writeSocket - client.py, 259] Sending 3721 bytes to server
+2018-10-31 18:11:17,499 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:17,560 DEBUG:[readSocket - client.py, 270] Receiving 259 bytes from server
+2018-10-31 18:11:17,561 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/future/story/20121126-do-flu-vaccines-give-you-flu
+2018-10-31 18:11:17,561 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL
+2018-10-31 18:11:19,045 DEBUG:[visit - scrapping.py, 44] Scrapping complete
+2018-10-31 18:11:19,046 DEBUG:[crawlingThread - client.py, 199] Session 
+http://www.bbc.com/travel/columns/why-we-are-what-we-are
+Code : 200
+Request time : 0.629120111465
+Bs time : 0.91729593277
+2018-10-31 18:11:19,046 DEBUG:[writeSocket - client.py, 259] Sending 689 bytes to server
+2018-10-31 18:11:19,046 INFO:Scrapping : http://www.bbc.com/travel/story/20180131-where-dutch-directness-comes-from
+2018-10-31 18:11:19,047 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:19,048 DEBUG:[writeSocket - client.py, 259] Sending 3571 bytes to server
+2018-10-31 18:11:19,048 DEBUG:[outputThread - client.py, 163] Sending obj of type URL
+2018-10-31 18:11:19,096 DEBUG:[readSocket - client.py, 270] Receiving 238 bytes from server
+2018-10-31 18:11:19,097 DEBUG:[dispatcher - client.py, 242] Dispatching url packet : http://www.bbc.com/earth/story/20160419-about-us
+2018-10-31 18:11:19,097 DEBUG:[dispatcher - client.py, 242] Dispatched packet of type: URL

@@ -1,0 +1,37 @@
+2018-10-31 18:12:46,011 DEBUG:[setup - server.py, 52] Socket initialization
+2018-10-31 18:12:46,011 INFO:Listening on [127.0.0.1:5050]
+2018-10-31 18:12:46,011 INFO:Waiting for working nodes to connect...
+2018-10-31 18:12:49,535 INFO:[127.0.0.1:47164] Working node connected
+2018-10-31 18:12:49,535 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-10-31 18:12:49,535 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:47164] Sending configuration
+2018-10-31 18:12:49,536 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 5354 bytes
+2018-10-31 18:12:49,536 INFO:Starting server urlDispatcher
+2018-10-31 18:12:49,536 INFO:Starting server mainRoutine
+2018-10-31 18:12:49,536 INFO:Starting server storageRoutine
+2018-10-31 18:12:49,537 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:47164] Configuration sent waiting for ACK
+2018-10-31 18:12:49,543 DEBUG:[readSocket - server.py, 325] [127.0.0.1:47164] Receiving 129 bytes
+2018-10-31 18:12:49,543 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:47164] Working node ACK received (configuration)
+2018-10-31 18:12:49,543 DEBUG:[inputThread - server.py, 239] [127.0.0.1:47164] Listening for packets
+2018-10-31 18:12:49,544 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 225 bytes
+2018-10-31 18:12:49,544 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL http://www.bbc.com/
+2018-10-31 18:12:51,402 DEBUG:[readSocket - server.py, 325] [127.0.0.1:47164] Receiving 2712 bytes
+2018-10-31 18:12:51,403 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:12:51,403 INFO:[127.0.0.1:47164] Receiving scrapped URLs :   44  /    0    -   0  
+2018-10-31 18:12:51,404 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 248 bytes
+2018-10-31 18:12:51,404 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL https://www.bbc.com/news/business-46017239
+2018-10-31 18:12:51,404 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 250 bytes
+2018-10-31 18:12:51,405 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL https://www.bbc.com/news/world-asia-46030622
+2018-10-31 18:12:51,405 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 232 bytes
+2018-10-31 18:12:51,405 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL http://www.bbc.com/capital
+2018-10-31 18:12:51,406 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 246 bytes
+2018-10-31 18:12:51,406 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL https://www.bbc.com/news/health-46031332
+2018-10-31 18:12:51,406 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 231 bytes
+2018-10-31 18:12:51,407 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL https://www.bbc.com/reel/
+2018-10-31 18:12:51,407 DEBUG:[readSocket - server.py, 325] [127.0.0.1:47164] Receiving 5632 bytes
+2018-10-31 18:12:51,442 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:12:51,442 INFO:[127.0.0.1:47164] Receiving scrapped data
+2018-10-31 18:12:51,443 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:47164] Receiving scrapped datahttp://www.bbc.com/
+2018-10-31 18:12:51,467 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:47164] Sending 284 bytes
+2018-10-31 18:12:51,468 DEBUG:[outputThread - server.py, 252] [127.0.0.1:47164] Sending URL https://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+2018-10-31 18:12:56,059 INFO:[127.0.0.1:47164] Lost connection
+2018-10-31 18:12:56,151 INFO:[127.0.0.1:47164] Disconnecting

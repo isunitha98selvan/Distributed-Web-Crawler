@@ -1,0 +1,22 @@
+2018-10-31 17:20:50,148 DEBUG:[setup - server.py, 52] Socket initialization
+2018-10-31 17:20:50,148 INFO:Listening on [127.0.0.1:5050]
+2018-10-31 17:20:50,148 INFO:Waiting for working nodes to connect...
+2018-10-31 17:25:51,840 INFO:[127.0.0.1:44722] Working node connected
+2018-10-31 17:25:51,841 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-10-31 17:25:51,841 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:44722] Sending configuration
+2018-10-31 17:25:51,841 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:44722] Sending 6743 bytes
+2018-10-31 17:25:51,841 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:44722] Configuration sent waiting for ACK
+2018-10-31 17:25:51,841 INFO:Starting server storageRoutine
+2018-10-31 17:25:51,841 INFO:Starting server mainRoutine
+2018-10-31 17:25:51,841 INFO:Starting server urlDispatcher
+2018-10-31 17:25:51,850 DEBUG:[readSocket - server.py, 322] [127.0.0.1:44722] Receiving 129 bytes
+2018-10-31 17:25:51,850 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:44722] Working node ACK received (configuration)
+2018-10-31 17:25:51,851 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:44722] Sending 237 bytes
+2018-10-31 17:25:51,851 DEBUG:[inputThread - server.py, 239] [127.0.0.1:44722] Listening for packets
+2018-10-31 17:25:51,851 DEBUG:[outputThread - server.py, 252] [127.0.0.1:44722] Sending URL http://www.businessinsider.com/
+2018-10-31 17:25:58,211 DEBUG:[readSocket - server.py, 322] [127.0.0.1:44722] Receiving 246 bytes
+2018-10-31 17:25:58,212 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:25:58,212 INFO:[127.0.0.1:44722] Receiving scrapped URLs :   1   /    0    -   0  
+2018-10-31 17:25:58,212 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:44722] Sending 263 bytes
+2018-10-31 17:25:58,213 DEBUG:[readSocket - server.py, 322] [127.0.0.1:44722] Receiving 2872 bytes
+2018-10-31 17:25:58,213 DEBUG:[outputThread - server.py, 252] [127.0.0.1:44722] Sending URL http://www.businessinsider.com/account?action=alerts&IR=C

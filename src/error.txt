@@ -1,0 +1,38 @@
+-100,SSLError: ('The read operation timed out').https://www.bbc.com/bitesize
+404,Not Found.https://www.bbc.com/food/collections/lighter_sunday_lunch
+-100,SSLError: ('The read operation timed out').https://www.bbc.com/food/recipes/microwave_jacket_34010
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/microwave_carbonara_98822
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/cheats_chocolate_mousse_87397
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/microwave_jambalaya_61187
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/microwave_arrabiata_76939
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/microwave_chorizo_46587
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/tortilla_28732
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/recipes/syrupspongewithprope_4983
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/diets/vegan
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170621-how-italian-became-the-language-of-love
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170607-why-are-australians-so-laid-back
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170725-the-confusing-way-mexicans-tell-time
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20180422-in-hawaii-being-nice-is-the-law
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170605-the-greek-word-that-cant-be-translated
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20171205-why-south-korea-is-an-ideal-breeding-ground-for-robots
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170719-the-mysterious-origins-of-europes-oldest-language
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/columns/lost-in-translation
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170504-the-japanese-skill-copied-by-the-world
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170803-what-can-poland-teach-us-about-freedom
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20170818-the-swedish-word-thats-displacing-hygge
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/news/magazine-34345791
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/travel/story/20171015-why-norway-is-teaching-travellers-to-travel
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20180228-there-are-benefits-to-being-antisocial-or-a-loner
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20180704-thai-cave-how-life-in-darkness-could-affect-trapped-boys
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/columns/world-changing-ideas
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20160428-this-is-how-it-feels-to-learn-your-memories-are-fiction
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20140307-how-to-learn-like-a-memory-champ
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20171012-how-emotions-can-trick-your-mind-and-body
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20151111-improve-your-memory-in-40-seconds
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20150429-how-to-learn-with-zero-effort
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/britain
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/news/health-27695144
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/future/story/20150409-i-have-exploding-head-syndrome
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.http://www.bbc.com/culture/20160822-why-mulholland-drive-is-the-greatest-film-since-2000
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/diets/high_protein_low_GI_diet
+-100,URLError: <urlopen error [Errno -3] Temporary failure in name resolution>.https://www.bbc.com/food/diets/how_to_reduce_your_risk_of_diabetes

@@ -1,0 +1,55 @@
+2018-10-31 17:43:20,284 DEBUG:[setup - server.py, 52] Socket initialization
+2018-10-31 17:43:20,284 INFO:Listening on [127.0.0.1:5050]
+2018-10-31 17:43:20,284 INFO:Waiting for working nodes to connect...
+2018-10-31 17:43:23,239 INFO:[127.0.0.1:45294] Working node connected
+2018-10-31 17:43:23,239 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-10-31 17:43:23,239 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:45294] Sending configuration
+2018-10-31 17:43:23,240 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:45294] Sending 6808 bytes
+2018-10-31 17:43:23,239 INFO:Starting server urlDispatcher
+2018-10-31 17:43:23,240 INFO:Starting server storageRoutine
+2018-10-31 17:43:23,240 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:45294] Configuration sent waiting for ACK
+2018-10-31 17:43:23,241 INFO:Starting server mainRoutine
+2018-10-31 17:43:23,245 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 129 bytes
+2018-10-31 17:43:23,245 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:45294] Working node ACK received (configuration)
+2018-10-31 17:43:23,245 DEBUG:[inputThread - server.py, 239] [127.0.0.1:45294] Listening for packets
+2018-10-31 17:43:23,246 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:45294] Sending 237 bytes
+2018-10-31 17:43:23,246 DEBUG:[outputThread - server.py, 252] [127.0.0.1:45294] Sending URL http://www.businessinsider.com/
+2018-10-31 17:43:33,273 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 246 bytes
+2018-10-31 17:43:33,274 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:33,274 INFO:[127.0.0.1:45294] Receiving scrapped URLs :   1   /    0    -   0  
+2018-10-31 17:43:33,275 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:45294] Sending 263 bytes
+2018-10-31 17:43:33,275 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 2872 bytes
+2018-10-31 17:43:33,275 DEBUG:[outputThread - server.py, 252] [127.0.0.1:45294] Sending URL http://www.businessinsider.com/account?action=alerts&IR=C
+2018-10-31 17:43:33,309 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:33,309 INFO:[127.0.0.1:45294] Receiving scrapped data
+2018-10-31 17:43:33,309 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:45294] Receiving scrapped datahttp://www.businessinsider.com/
+2018-10-31 17:43:42,455 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 309 bytes
+2018-10-31 17:43:42,455 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:42,455 INFO:[127.0.0.1:45294] Receiving scrapped URLs :   3   /    1    -   0  
+2018-10-31 17:43:42,456 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:45294] Sending 237 bytes
+2018-10-31 17:43:42,456 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 3618 bytes
+2018-10-31 17:43:42,457 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:42,457 DEBUG:[outputThread - server.py, 252] [127.0.0.1:45294] Sending URL https://www.businessinsider.com
+2018-10-31 17:43:42,457 INFO:[127.0.0.1:45294] Receiving scrapped data
+2018-10-31 17:43:42,457 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:45294] Sending 241 bytes
+2018-10-31 17:43:42,458 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:45294] Receiving scrapped datahttp://www.businessinsider.com/account?action=alerts&IR=C
+2018-10-31 17:43:42,458 DEBUG:[outputThread - server.py, 252] [127.0.0.1:45294] Sending URL https://www.businessinsider.com.au/
+2018-10-31 17:43:42,458 DEBUG:[writeSocket - server.py, 314] [127.0.0.1:45294] Sending 246 bytes
+2018-10-31 17:43:42,458 DEBUG:[outputThread - server.py, 252] [127.0.0.1:45294] Sending URL https://www.businessinsider.com.pl/?IR=C
+2018-10-31 17:43:47,005 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 246 bytes
+2018-10-31 17:43:47,006 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:47,006 INFO:[127.0.0.1:45294] Receiving scrapped URLs :   1   /    4    -   0  
+2018-10-31 17:43:47,046 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 2873 bytes
+2018-10-31 17:43:47,046 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:47,047 INFO:[127.0.0.1:45294] Receiving scrapped data
+2018-10-31 17:43:47,047 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:45294] Receiving scrapped datahttps://www.businessinsider.com
+2018-10-31 17:43:50,621 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 519 bytes
+2018-10-31 17:43:50,622 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:43:50,622 INFO:[127.0.0.1:45294] Skipped (request not allowed - robot parser) : https://www.businessinsider.com.au/
+2018-10-31 17:44:04,730 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 182 bytes
+2018-10-31 17:44:04,730 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:44:04,730 INFO:[127.0.0.1:45294] Receiving scrapped URLs :   0   /    4    -   1  
+2018-10-31 17:44:04,730 DEBUG:[readSocket - server.py, 322] [127.0.0.1:45294] Receiving 1971 bytes
+2018-10-31 17:44:04,731 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 17:44:04,731 INFO:[127.0.0.1:45294] Receiving scrapped data
+2018-10-31 17:44:04,731 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:45294] Receiving scrapped datahttps://www.businessinsider.com.pl/?IR=C

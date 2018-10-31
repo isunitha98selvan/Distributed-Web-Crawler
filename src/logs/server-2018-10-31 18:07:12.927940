@@ -1,0 +1,771 @@
+2018-10-31 18:07:12,928 DEBUG:[setup - server.py, 52] Socket initialization
+2018-10-31 18:07:12,928 INFO:Listening on [127.0.0.1:5050]
+2018-10-31 18:07:12,928 INFO:Waiting for working nodes to connect...
+2018-10-31 18:07:16,146 INFO:[127.0.0.1:46954] Working node connected
+2018-10-31 18:07:16,146 DEBUG:[run - server.py, 64] Starting beginCrawlingProcedure
+2018-10-31 18:07:16,147 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:46954] Sending configuration
+2018-10-31 18:07:16,147 INFO:Starting server urlDispatcher
+2018-10-31 18:07:16,147 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 6822 bytes
+2018-10-31 18:07:16,147 INFO:Starting server mainRoutine
+2018-10-31 18:07:16,147 INFO:Starting server storageRoutine
+2018-10-31 18:07:16,148 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:46954] Configuration sent waiting for ACK
+2018-10-31 18:07:16,152 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 129 bytes
+2018-10-31 18:07:16,153 DEBUG:[sendConfig - server.py, 215] [127.0.0.1:46954] Working node ACK received (configuration)
+2018-10-31 18:07:16,153 DEBUG:[inputThread - server.py, 239] [127.0.0.1:46954] Listening for packets
+2018-10-31 18:07:16,154 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 225 bytes
+2018-10-31 18:07:16,154 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/
+2018-10-31 18:07:21,954 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2712 bytes
+2018-10-31 18:07:21,954 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:21,955 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   44  /    0    -   0  
+2018-10-31 18:07:21,955 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:07:21,956 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-46017239
+2018-10-31 18:07:21,956 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 250 bytes
+2018-10-31 18:07:21,957 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/world-asia-46030622
+2018-10-31 18:07:21,957 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 232 bytes
+2018-10-31 18:07:21,957 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/capital
+2018-10-31 18:07:21,958 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 246 bytes
+2018-10-31 18:07:21,958 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/health-46031332
+2018-10-31 18:07:21,959 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 231 bytes
+2018-10-31 18:07:21,959 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/reel/
+2018-10-31 18:07:21,960 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 5603 bytes
+2018-10-31 18:07:21,993 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:21,993 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:21,994 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/
+2018-10-31 18:07:22,020 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 284 bytes
+2018-10-31 18:07:22,020 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+2018-10-31 18:07:25,093 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 329 bytes
+2018-10-31 18:07:25,094 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:25,094 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    44   -   0  
+2018-10-31 18:07:25,136 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2992 bytes
+2018-10-31 18:07:25,137 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:25,137 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:25,137 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-46017239
+2018-10-31 18:07:25,152 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:07:25,153 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/newsbeat-45970106
+2018-10-31 18:07:27,296 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 331 bytes
+2018-10-31 18:07:27,296 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:27,297 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    44   -   0  
+2018-10-31 18:07:27,336 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2995 bytes
+2018-10-31 18:07:27,337 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:27,337 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:27,337 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/world-asia-46030622
+2018-10-31 18:07:27,350 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:07:27,350 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-46028792
+2018-10-31 18:07:28,930 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:07:28,931 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:28,931 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    44   -   0  
+2018-10-31 18:07:28,972 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3284 bytes
+2018-10-31 18:07:28,973 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:28,973 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:28,974 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/capital
+2018-10-31 18:07:28,977 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 278 bytes
+2018-10-31 18:07:28,977 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/story/20181030-mexicos-bread-baked-for-spirits
+2018-10-31 18:07:31,194 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 383 bytes
+2018-10-31 18:07:31,194 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:31,194 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   5   /    51   -   0  
+2018-10-31 18:07:31,236 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3036 bytes
+2018-10-31 18:07:31,237 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:31,237 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:31,238 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/health-46031332
+2018-10-31 18:07:31,264 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 252 bytes
+2018-10-31 18:07:31,264 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/world-europe-45902014
+2018-10-31 18:07:32,597 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:07:32,597 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:32,597 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /    52   -   0  
+2018-10-31 18:07:32,640 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2666 bytes
+2018-10-31 18:07:32,641 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:32,642 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:32,642 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/reel/
+2018-10-31 18:07:32,650 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 255 bytes
+2018-10-31 18:07:32,650 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/world-us-canada-46012626
+2018-10-31 18:07:33,913 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 312 bytes
+2018-10-31 18:07:33,914 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:33,914 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    52   -   0  
+2018-10-31 18:07:33,956 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2752 bytes
+2018-10-31 18:07:33,957 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:33,957 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:33,958 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/reel/video/p06kzfyn/what-does-the-average-dream-look-like-
+2018-10-31 18:07:33,975 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:07:33,975 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-45969676
+2018-10-31 18:07:36,542 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 329 bytes
+2018-10-31 18:07:36,542 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:36,543 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    52   -   0  
+2018-10-31 18:07:36,584 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2990 bytes
+2018-10-31 18:07:36,585 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:36,585 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:36,585 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/newsbeat-45970106
+2018-10-31 18:07:36,594 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 242 bytes
+2018-10-31 18:07:36,594 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/uk-46027266
+2018-10-31 18:07:38,612 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 387 bytes
+2018-10-31 18:07:38,612 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:38,613 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   5   /    52   -   0  
+2018-10-31 18:07:38,652 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3042 bytes
+2018-10-31 18:07:38,653 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:38,653 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:38,653 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-46028792
+2018-10-31 18:07:38,671 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 295 bytes
+2018-10-31 18:07:38,672 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20181030-belief-in-ghosts-may-help-you-lead-a-better-life
+2018-10-31 18:07:40,288 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 693 bytes
+2018-10-31 18:07:40,288 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:40,288 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   11  /    53   -   0  
+2018-10-31 18:07:40,328 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3788 bytes
+2018-10-31 18:07:40,329 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:40,329 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:40,329 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/story/20181030-mexicos-bread-baked-for-spirits
+2018-10-31 18:07:40,357 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 252 bytes
+2018-10-31 18:07:40,357 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/world-europe-46030112
+2018-10-31 18:07:43,898 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 388 bytes
+2018-10-31 18:07:43,899 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:43,899 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   5   /    56   -   0  
+2018-10-31 18:07:43,940 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3052 bytes
+2018-10-31 18:07:43,941 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:43,941 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:43,941 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/world-europe-45902014
+2018-10-31 18:07:43,968 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 276 bytes
+2018-10-31 18:07:43,969 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/story/20181025-why-is-seven-samurai-so-good
+2018-10-31 18:07:46,656 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 336 bytes
+2018-10-31 18:07:46,656 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:46,656 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    57   -   0  
+2018-10-31 18:07:46,696 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2995 bytes
+2018-10-31 18:07:46,697 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:46,697 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:46,697 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/world-us-canada-46012626
+2018-10-31 18:07:46,708 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 297 bytes
+2018-10-31 18:07:46,708 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films-who-voted
+2018-10-31 18:07:49,760 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 329 bytes
+2018-10-31 18:07:49,760 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:49,761 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    57   -   0  
+2018-10-31 18:07:49,800 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2983 bytes
+2018-10-31 18:07:49,801 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:49,801 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:49,801 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-45969676
+2018-10-31 18:07:49,809 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 230 bytes
+2018-10-31 18:07:49,810 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/food
+2018-10-31 18:07:52,613 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 323 bytes
+2018-10-31 18:07:52,613 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:52,614 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    57   -   0  
+2018-10-31 18:07:52,656 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2971 bytes
+2018-10-31 18:07:52,657 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:52,657 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:52,657 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/uk-46027266
+2018-10-31 18:07:52,670 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 242 bytes
+2018-10-31 18:07:52,670 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/uk-46026349
+2018-10-31 18:07:57,477 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 888 bytes
+2018-10-31 18:07:57,478 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:57,478 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   15  /    57   -   0  
+2018-10-31 18:07:57,520 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3805 bytes
+2018-10-31 18:07:57,521 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:07:57,521 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:07:57,521 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/story/20181030-belief-in-ghosts-may-help-you-lead-a-better-life
+2018-10-31 18:07:57,548 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:07:57,548 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-45976006
+2018-10-31 18:08:05,741 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 333 bytes
+2018-10-31 18:08:05,742 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:05,742 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    63   -   0  
+2018-10-31 18:08:05,784 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2988 bytes
+2018-10-31 18:08:05,785 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:05,785 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:05,785 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/world-europe-46030112
+2018-10-31 18:08:05,796 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 249 bytes
+2018-10-31 18:08:05,797 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/education-45979234
+2018-10-31 18:08:10,430 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 1142 bytes
+2018-10-31 18:08:10,430 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:10,431 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   16  /    63   -   0  
+2018-10-31 18:08:10,472 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 4040 bytes
+2018-10-31 18:08:10,473 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:10,473 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:10,474 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/story/20181025-why-is-seven-samurai-so-good
+2018-10-31 18:08:10,493 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:08:10,493 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-45979780
+2018-10-31 18:08:14,606 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 1030 bytes
+2018-10-31 18:08:14,606 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:14,607 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   15  /    69   -   0  
+2018-10-31 18:08:14,648 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3950 bytes
+2018-10-31 18:08:14,649 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:14,650 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:14,650 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films-who-voted
+2018-10-31 18:08:14,678 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:08:14,678 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-11428889
+2018-10-31 18:08:18,398 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 763 bytes
+2018-10-31 18:08:18,398 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:18,398 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   13  /    69   -   0  
+2018-10-31 18:08:18,440 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3519 bytes
+2018-10-31 18:08:18,441 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:18,441 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:18,442 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/food
+2018-10-31 18:08:18,472 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 232 bytes
+2018-10-31 18:08:18,472 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture
+2018-10-31 18:08:25,640 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 323 bytes
+2018-10-31 18:08:25,640 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:25,641 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    79   -   0  
+2018-10-31 18:08:25,680 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2979 bytes
+2018-10-31 18:08:25,681 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:25,681 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:25,681 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/uk-46026349
+2018-10-31 18:08:25,696 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 278 bytes
+2018-10-31 18:08:25,697 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/capital/story/20181030-why-type-a-isnt-really-a-thing
+2018-10-31 18:08:28,252 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 387 bytes
+2018-10-31 18:08:28,252 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:28,252 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   5   /    79   -   0  
+2018-10-31 18:08:28,292 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3038 bytes
+2018-10-31 18:08:28,293 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:28,293 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:28,293 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-45976006
+2018-10-31 18:08:28,316 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 259 bytes
+2018-10-31 18:08:28,316 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/science-environment-46024189
+2018-10-31 18:08:34,367 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 330 bytes
+2018-10-31 18:08:34,367 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:34,367 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    80   -   0  
+2018-10-31 18:08:34,408 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2985 bytes
+2018-10-31 18:08:34,409 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:34,409 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:34,410 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/education-45979234
+2018-10-31 18:08:34,426 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 231 bytes
+2018-10-31 18:08:34,426 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future
+2018-10-31 18:08:41,984 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 329 bytes
+2018-10-31 18:08:41,984 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:41,985 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    80   -   0  
+2018-10-31 18:08:42,024 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2981 bytes
+2018-10-31 18:08:42,025 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:42,025 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:42,025 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-45979780
+2018-10-31 18:08:42,042 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 288 bytes
+2018-10-31 18:08:42,043 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/gallery/20181026-the-25-greatest-foreign-language-films
+2018-10-31 18:08:45,962 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:08:45,962 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:45,962 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /    80   -   0  
+2018-10-31 18:08:46,004 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2931 bytes
+2018-10-31 18:08:46,005 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:46,005 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:46,005 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-11428889
+2018-10-31 18:08:46,017 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:08:46,017 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-46031652
+2018-10-31 18:08:47,355 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 662 bytes
+2018-10-31 18:08:47,356 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:47,356 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   11  /    80   -   0  
+2018-10-31 18:08:47,396 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3513 bytes
+2018-10-31 18:08:47,397 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:47,397 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:47,398 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture
+2018-10-31 18:08:47,402 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 285 bytes
+2018-10-31 18:08:47,402 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/story/20181028-an-indian-city-with-audacious-attitude
+2018-10-31 18:08:51,007 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:08:51,007 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:51,008 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    80   -   0  
+2018-10-31 18:08:51,048 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3329 bytes
+2018-10-31 18:08:51,049 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:51,050 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:51,050 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/capital/story/20181030-why-type-a-isnt-really-a-thing
+2018-10-31 18:08:51,073 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 230 bytes
+2018-10-31 18:08:51,073 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/reel
+2018-10-31 18:08:55,637 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 340 bytes
+2018-10-31 18:08:55,637 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:55,638 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    80   -   0  
+2018-10-31 18:08:55,680 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3013 bytes
+2018-10-31 18:08:55,681 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:55,681 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:55,682 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/science-environment-46024189
+2018-10-31 18:08:55,710 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 246 bytes
+2018-10-31 18:08:55,710 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/news/world/asia/india
+2018-10-31 18:08:57,400 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 613 bytes
+2018-10-31 18:08:57,401 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:57,401 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /    80   -   0  
+2018-10-31 18:08:57,444 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3463 bytes
+2018-10-31 18:08:57,445 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:08:57,445 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:08:57,445 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future
+2018-10-31 18:08:57,457 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 241 bytes
+2018-10-31 18:08:57,457 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/designed
+2018-10-31 18:09:02,965 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:02,965 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:02,966 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    80   -   0  
+2018-10-31 18:09:03,008 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3339 bytes
+2018-10-31 18:09:03,009 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:03,009 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:03,010 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/gallery/20181026-the-25-greatest-foreign-language-films
+2018-10-31 18:09:03,027 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 273 bytes
+2018-10-31 18:09:03,027 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/tags/100-greatest-foreign-language-films
+2018-10-31 18:09:08,007 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 329 bytes
+2018-10-31 18:09:08,008 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:08,008 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    80   -   0  
+2018-10-31 18:09:08,048 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2982 bytes
+2018-10-31 18:09:08,049 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:08,049 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:08,049 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-46031652
+2018-10-31 18:09:08,056 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 298 bytes
+2018-10-31 18:09:08,056 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/story/20181024-the-luxurious-modernist-homes-of-hollywood-legends
+2018-10-31 18:09:09,297 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 753 bytes
+2018-10-31 18:09:09,298 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:09,298 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /    80   -   0  
+2018-10-31 18:09:09,344 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3658 bytes
+2018-10-31 18:09:09,345 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:09,346 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:09,346 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/story/20181028-an-indian-city-with-audacious-attitude
+2018-10-31 18:09:09,351 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 280 bytes
+2018-10-31 18:09:09,352 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20181029-why-the-flu-of-1918-was-so-deadly
+2018-10-31 18:09:12,100 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:09:12,101 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:12,101 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /    84   -   0  
+2018-10-31 18:09:12,144 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3066 bytes
+2018-10-31 18:09:12,145 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:12,145 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:12,146 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/reel
+2018-10-31 18:09:12,152 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 234 bytes
+2018-10-31 18:09:12,152 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/bitesize
+2018-10-31 18:09:15,311 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 366 bytes
+2018-10-31 18:09:15,312 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:15,312 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    84   -   0  
+2018-10-31 18:09:15,352 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3261 bytes
+2018-10-31 18:09:15,353 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:15,354 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:15,354 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/news/world/asia/india
+2018-10-31 18:09:15,373 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 262 bytes
+2018-10-31 18:09:15,374 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/reel/playlist/debunked?vpid=p06dntdd
+2018-10-31 18:09:17,950 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:17,950 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:17,951 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    84   -   0  
+2018-10-31 18:09:17,992 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3490 bytes
+2018-10-31 18:09:17,993 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:17,993 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:17,993 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/designed
+2018-10-31 18:09:18,022 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 251 bytes
+2018-10-31 18:09:18,023 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/capital/generation-project
+2018-10-31 18:09:19,611 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:19,612 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:19,612 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    84   -   0  
+2018-10-31 18:09:19,652 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3523 bytes
+2018-10-31 18:09:19,653 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:19,653 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:19,654 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/tags/100-greatest-foreign-language-films
+2018-10-31 18:09:19,678 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 231 bytes
+2018-10-31 18:09:19,679 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/earth
+2018-10-31 18:09:21,208 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:21,209 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:21,209 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    84   -   0  
+2018-10-31 18:09:21,252 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3417 bytes
+2018-10-31 18:09:21,253 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:21,253 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:21,254 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/story/20181024-the-luxurious-modernist-homes-of-hollywood-legends
+2018-10-31 18:09:21,275 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 296 bytes
+2018-10-31 18:09:21,275 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/capital/story/20181024-the-people-changing-retirement-with-side-hustles
+2018-10-31 18:09:22,904 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 865 bytes
+2018-10-31 18:09:22,904 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:22,905 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   15  /    84   -   0  
+2018-10-31 18:09:22,944 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3836 bytes
+2018-10-31 18:09:22,945 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:22,945 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:22,945 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/story/20181029-why-the-flu-of-1918-was-so-deadly
+2018-10-31 18:09:22,961 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 248 bytes
+2018-10-31 18:09:22,961 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-22449886
+2018-10-31 18:09:29,027 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 518 bytes
+2018-10-31 18:09:29,027 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:29,027 INFO:[127.0.0.1:46954] Skipped (unknown error) : https://www.bbc.com/bitesize
+2018-10-31 18:09:29,041 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 231 bytes
+2018-10-31 18:09:29,041 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel
+2018-10-31 18:09:30,552 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 313 bytes
+2018-10-31 18:09:30,552 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:30,552 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    87   -   1  
+2018-10-31 18:09:30,592 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3000 bytes
+2018-10-31 18:09:30,593 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:30,594 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:30,594 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/reel/playlist/debunked?vpid=p06dntdd
+2018-10-31 18:09:30,607 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 297 bytes
+2018-10-31 18:09:30,607 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/reel/video/p06q8j6z/an-exclusive-visit-to-the-world-s-only-mummy-school
+2018-10-31 18:09:32,336 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:32,337 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:32,337 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    87   -   1  
+2018-10-31 18:09:32,380 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3370 bytes
+2018-10-31 18:09:32,381 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:32,381 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:32,382 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/capital/generation-project
+2018-10-31 18:09:32,383 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 233 bytes
+2018-10-31 18:09:32,384 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/capital/
+2018-10-31 18:09:34,883 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 491 bytes
+2018-10-31 18:09:34,883 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:34,883 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   9   /    87   -   1  
+2018-10-31 18:09:34,924 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3423 bytes
+2018-10-31 18:09:34,925 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:34,925 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:34,925 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/earth
+2018-10-31 18:09:34,942 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 231 bytes
+2018-10-31 18:09:34,942 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/autos/
+2018-10-31 18:09:36,364 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:36,364 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:36,365 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    88   -   1  
+2018-10-31 18:09:36,404 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3433 bytes
+2018-10-31 18:09:36,405 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:36,405 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:36,405 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/capital/story/20181024-the-people-changing-retirement-with-side-hustles
+2018-10-31 18:09:36,417 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 232 bytes
+2018-10-31 18:09:36,417 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/
+2018-10-31 18:09:38,169 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:09:38,169 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:38,169 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /    88   -   1  
+2018-10-31 18:09:38,212 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3181 bytes
+2018-10-31 18:09:38,213 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:38,213 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:38,213 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-22449886
+2018-10-31 18:09:38,224 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 229 bytes
+2018-10-31 18:09:38,224 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/news
+2018-10-31 18:09:39,503 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 673 bytes
+2018-10-31 18:09:39,504 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:39,504 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /    88   -   1  
+2018-10-31 18:09:39,544 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3586 bytes
+2018-10-31 18:09:39,545 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:39,546 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:39,546 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel
+2018-10-31 18:09:39,549 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 232 bytes
+2018-10-31 18:09:39,549 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/
+2018-10-31 18:09:40,862 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 312 bytes
+2018-10-31 18:09:40,863 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:40,863 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    92   -   1  
+2018-10-31 18:09:40,904 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2765 bytes
+2018-10-31 18:09:40,905 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:40,905 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:40,906 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/reel/video/p06q8j6z/an-exclusive-visit-to-the-world-s-only-mummy-school
+2018-10-31 18:09:40,935 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 233 bytes
+2018-10-31 18:09:40,935 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/
+2018-10-31 18:09:42,333 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:09:42,333 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:42,333 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    92   -   1  
+2018-10-31 18:09:42,376 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3285 bytes
+2018-10-31 18:09:42,377 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:42,377 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:42,377 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/capital/
+2018-10-31 18:09:42,381 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 231 bytes
+2018-10-31 18:09:42,381 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/earth/
+2018-10-31 18:09:43,617 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 485 bytes
+2018-10-31 18:09:43,617 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:43,617 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   9   /    92   -   1  
+2018-10-31 18:09:43,660 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3395 bytes
+2018-10-31 18:09:43,661 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:43,661 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:43,661 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/autos/
+2018-10-31 18:09:43,676 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 255 bytes
+2018-10-31 18:09:43,676 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/health-46031332/comments
+2018-10-31 18:09:45,054 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 613 bytes
+2018-10-31 18:09:45,054 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:45,054 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /    93   -   1  
+2018-10-31 18:09:45,100 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3465 bytes
+2018-10-31 18:09:45,102 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:45,102 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:45,102 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/
+2018-10-31 18:09:45,121 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 257 bytes
+2018-10-31 18:09:45,122 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-46028792/comments
+2018-10-31 18:09:53,123 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 1062 bytes
+2018-10-31 18:09:53,124 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:53,124 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   16  /    93   -   1  
+2018-10-31 18:09:53,164 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3462 bytes
+2018-10-31 18:09:53,165 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:53,165 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:53,165 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/news
+2018-10-31 18:09:53,187 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 285 bytes
+2018-10-31 18:09:53,188 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/story/20171026-why-romanians-are-obsessed-with-garlic
+2018-10-31 18:09:54,423 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 673 bytes
+2018-10-31 18:09:54,423 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:54,423 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /    97   -   1  
+2018-10-31 18:09:54,464 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3525 bytes
+2018-10-31 18:09:54,465 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:54,465 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:54,465 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/
+2018-10-31 18:09:54,483 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 283 bytes
+2018-10-31 18:09:54,484 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/gallery/20171030-galicias-mythic-drink-of-blue-fire
+2018-10-31 18:09:55,519 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 662 bytes
+2018-10-31 18:09:55,519 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:55,519 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   11  /    97   -   1  
+2018-10-31 18:09:55,560 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3575 bytes
+2018-10-31 18:09:55,561 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:55,562 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:55,562 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/
+2018-10-31 18:09:55,568 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 286 bytes
+2018-10-31 18:09:55,568 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/gallery/20171025-kyrgyzstans-bread-that-feeds-the-dead
+2018-10-31 18:09:59,585 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 491 bytes
+2018-10-31 18:09:59,585 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:59,586 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   9   /    97   -   1  
+2018-10-31 18:09:59,628 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3339 bytes
+2018-10-31 18:09:59,629 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:09:59,629 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:09:59,629 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/earth/
+2018-10-31 18:09:59,631 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 254 bytes
+2018-10-31 18:09:59,631 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/blogs-trending-44397191
+2018-10-31 18:10:01,352 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:10:01,352 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:01,352 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /    97   -   1  
+2018-10-31 18:10:01,392 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2937 bytes
+2018-10-31 18:10:01,393 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:01,393 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:01,393 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/health-46031332/comments
+2018-10-31 18:10:01,407 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 297 bytes
+2018-10-31 18:10:01,408 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20181009-how-sleep-helps-with-emotional-recovery-and-trauma
+2018-10-31 18:10:03,323 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:10:03,324 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:03,324 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /    97   -   1  
+2018-10-31 18:10:03,364 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2941 bytes
+2018-10-31 18:10:03,365 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:03,366 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 235 bytes
+2018-10-31 18:10:03,366 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:03,366 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/now
+2018-10-31 18:10:03,366 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-46028792/comments
+2018-10-31 18:10:04,694 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 737 bytes
+2018-10-31 18:10:04,695 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:04,696 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /    97   -   1  
+2018-10-31 18:10:04,740 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3642 bytes
+2018-10-31 18:10:04,741 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:04,742 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:04,742 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/story/20171026-why-romanians-are-obsessed-with-garlic
+2018-10-31 18:10:04,751 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 249 bytes
+2018-10-31 18:10:04,751 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/tags/future-video
+2018-10-31 18:10:06,044 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:10:06,044 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:06,044 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    99   -   1  
+2018-10-31 18:10:06,084 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3335 bytes
+2018-10-31 18:10:06,085 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:06,085 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:06,085 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/gallery/20171030-galicias-mythic-drink-of-blue-fire
+2018-10-31 18:10:06,105 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 298 bytes
+2018-10-31 18:10:06,106 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20180110-the-camera-tricks-that-will-help-you-summon-a-ghost
+2018-10-31 18:10:10,079 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:10:10,080 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:10,080 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /    99   -   1  
+2018-10-31 18:10:10,120 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3337 bytes
+2018-10-31 18:10:10,121 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:10,121 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:10,122 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/gallery/20171025-kyrgyzstans-bread-that-feeds-the-dead
+2018-10-31 18:10:10,138 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 277 bytes
+2018-10-31 18:10:10,138 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20141030-the-truth-about-the-paranormal
+2018-10-31 18:10:12,332 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 335 bytes
+2018-10-31 18:10:12,332 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:12,332 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   4   /    99   -   1  
+2018-10-31 18:10:12,372 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2995 bytes
+2018-10-31 18:10:12,373 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:12,373 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:12,373 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/blogs-trending-44397191
+2018-10-31 18:10:12,396 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 258 bytes
+2018-10-31 18:10:12,396 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/columns/best-of-bbc-future
+2018-10-31 18:10:13,693 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 1249 bytes
+2018-10-31 18:10:13,693 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:13,694 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   19  /    99   -   1  
+2018-10-31 18:10:13,736 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 4172 bytes
+2018-10-31 18:10:13,737 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:13,737 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:13,737 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/story/20181009-how-sleep-helps-with-emotional-recovery-and-trauma
+2018-10-31 18:10:13,751 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 271 bytes
+2018-10-31 18:10:13,751 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/event/20180521-stockholm-film-festival
+2018-10-31 18:10:27,797 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 613 bytes
+2018-10-31 18:10:27,797 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:27,797 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /   106   -   1  
+2018-10-31 18:10:27,840 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3467 bytes
+2018-10-31 18:10:27,841 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:27,841 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:27,841 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/now
+2018-10-31 18:10:27,867 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 287 bytes
+2018-10-31 18:10:27,867 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films
+2018-10-31 18:10:29,651 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 613 bytes
+2018-10-31 18:10:29,651 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:29,652 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /   106   -   1  
+2018-10-31 18:10:29,692 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3541 bytes
+2018-10-31 18:10:29,693 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:29,694 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:29,694 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/tags/future-video
+2018-10-31 18:10:29,703 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 268 bytes
+2018-10-31 18:10:29,703 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/event/20181016-photo-vogue-festival
+2018-10-31 18:10:30,986 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 704 bytes
+2018-10-31 18:10:30,986 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:30,986 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   13  /   106   -   1  
+2018-10-31 18:10:31,028 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3623 bytes
+2018-10-31 18:10:31,029 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:31,029 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:31,029 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/story/20180110-the-camera-tricks-that-will-help-you-summon-a-ghost
+2018-10-31 18:10:31,058 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 284 bytes
+2018-10-31 18:10:31,058 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/event/20180920-franz-schubert-chamber-music-concert
+2018-10-31 18:10:33,978 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 613 bytes
+2018-10-31 18:10:33,978 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:33,978 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /   107   -   1  
+2018-10-31 18:10:34,020 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3510 bytes
+2018-10-31 18:10:34,021 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:34,021 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:34,021 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/story/20141030-the-truth-about-the-paranormal
+2018-10-31 18:10:34,038 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 300 bytes
+2018-10-31 18:10:34,039 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/story/20181029-why-are-women-directors-excluded-from-cinema-history
+2018-10-31 18:10:39,349 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 613 bytes
+2018-10-31 18:10:39,350 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:39,350 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /   107   -   1  
+2018-10-31 18:10:39,392 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3490 bytes
+2018-10-31 18:10:39,393 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:39,393 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:39,393 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/future/columns/best-of-bbc-future
+2018-10-31 18:10:39,395 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 303 bytes
+2018-10-31 18:10:39,396 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/culture/story/20181029-twelve-amazing-lesser-known-films-from-around-the-world
+2018-10-31 18:10:40,641 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:10:40,641 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:40,642 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /   107   -   1  
+2018-10-31 18:10:40,684 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3323 bytes
+2018-10-31 18:10:40,685 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:40,686 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:40,686 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/event/20180521-stockholm-film-festival
+2018-10-31 18:10:40,694 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 236 bytes
+2018-10-31 18:10:40,694 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/food/pasta
+2018-10-31 18:10:45,334 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 1382 bytes
+2018-10-31 18:10:45,335 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:45,335 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   19  /   107   -   1  
+2018-10-31 18:10:45,376 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 4294 bytes
+2018-10-31 18:10:45,377 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:45,377 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:45,377 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/story/20181029-the-100-greatest-foreign-language-films
+2018-10-31 18:10:45,391 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 246 bytes
+2018-10-31 18:10:45,391 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/food/diets/vegetarian
+2018-10-31 18:10:48,817 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:10:48,818 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:48,818 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /   110   -   1  
+2018-10-31 18:10:48,860 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3319 bytes
+2018-10-31 18:10:48,861 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:48,861 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:48,861 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/event/20181016-photo-vogue-festival
+2018-10-31 18:10:48,884 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 246 bytes
+2018-10-31 18:10:48,884 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/food/diets/dairy_free
+2018-10-31 18:10:50,047 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:10:50,047 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:50,048 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /   110   -   1  
+2018-10-31 18:10:50,088 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3336 bytes
+2018-10-31 18:10:50,089 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:50,089 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:50,089 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/event/20180920-franz-schubert-chamber-music-concert
+2018-10-31 18:10:50,118 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 253 bytes
+2018-10-31 18:10:50,119 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/food/diets/low-calorie_diet
+2018-10-31 18:10:51,550 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 1204 bytes
+2018-10-31 18:10:51,550 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:51,550 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   17  /   110   -   1  
+2018-10-31 18:10:51,592 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 4129 bytes
+2018-10-31 18:10:51,594 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:51,594 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:51,594 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/story/20181029-why-are-women-directors-excluded-from-cinema-history
+2018-10-31 18:10:51,624 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 247 bytes
+2018-10-31 18:10:51,624 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/food/diets/gluten_free
+2018-10-31 18:10:52,907 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 436 bytes
+2018-10-31 18:10:52,908 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:52,908 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   8   /   111   -   1  
+2018-10-31 18:10:52,948 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3355 bytes
+2018-10-31 18:10:52,949 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:52,949 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:52,949 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/culture/story/20181029-twelve-amazing-lesser-known-films-from-around-the-world
+2018-10-31 18:10:52,979 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 267 bytes
+2018-10-31 18:10:52,980 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/food/collections/halloween_baking_recipes
+2018-10-31 18:10:56,484 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:10:56,484 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:56,484 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   111   -   1  
+2018-10-31 18:10:56,524 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3031 bytes
+2018-10-31 18:10:56,525 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:56,525 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:56,525 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/food/pasta
+2018-10-31 18:10:56,531 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 258 bytes
+2018-10-31 18:10:56,531 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/food/collections/breaded_chicken
+2018-10-31 18:10:58,435 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:10:58,435 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:58,436 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   111   -   1  
+2018-10-31 18:10:58,476 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3039 bytes
+2018-10-31 18:10:58,477 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:10:58,477 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:10:58,478 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/food/diets/vegetarian
+2018-10-31 18:10:58,488 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 243 bytes
+2018-10-31 18:10:58,489 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/food/diets/healthy
+2018-10-31 18:11:00,059 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 673 bytes
+2018-10-31 18:11:00,060 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:00,060 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   9   /   111   -   1  
+2018-10-31 18:11:00,104 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3439 bytes
+2018-10-31 18:11:00,105 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:00,105 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:00,106 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/food/diets/dairy_free
+2018-10-31 18:11:00,115 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 241 bytes
+2018-10-31 18:11:00,116 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/food/diets/vegan
+2018-10-31 18:11:01,358 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 398 bytes
+2018-10-31 18:11:01,358 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:01,358 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   5   /   117   -   1  
+2018-10-31 18:11:01,400 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3168 bytes
+2018-10-31 18:11:01,401 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:01,401 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:01,402 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/food/diets/low-calorie_diet
+2018-10-31 18:11:01,411 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 236 bytes
+2018-10-31 18:11:01,411 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/food/pasty
+2018-10-31 18:11:03,161 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:11:03,161 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:03,161 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   119   -   1  
+2018-10-31 18:11:03,204 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3042 bytes
+2018-10-31 18:11:03,205 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:03,206 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:03,206 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/food/diets/gluten_free
+2018-10-31 18:11:03,217 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 257 bytes
+2018-10-31 18:11:03,218 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL https://www.bbc.com/news/business-45976006/comments
+2018-10-31 18:11:04,279 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:11:04,279 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:04,279 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   119   -   1  
+2018-10-31 18:11:04,324 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3118 bytes
+2018-10-31 18:11:04,325 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:04,326 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:04,326 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/food/collections/halloween_baking_recipes
+2018-10-31 18:11:04,332 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 282 bytes
+2018-10-31 18:11:04,333 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/story/20180722-cracking-indias-mystifying-nod-code
+2018-10-31 18:11:06,355 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:11:06,356 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:06,356 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   119   -   1  
+2018-10-31 18:11:06,396 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3051 bytes
+2018-10-31 18:11:06,397 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:06,398 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:06,398 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/food/collections/breaded_chicken
+2018-10-31 18:11:06,411 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 262 bytes
+2018-10-31 18:11:06,411 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/columns/why-we-are-what-we-are
+2018-10-31 18:11:08,435 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2345 bytes
+2018-10-31 18:11:08,435 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:08,435 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   34  /   119   -   1  
+2018-10-31 18:11:08,476 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 5136 bytes
+2018-10-31 18:11:08,477 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:08,477 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:08,477 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/food/diets/healthy
+2018-10-31 18:11:08,489 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 280 bytes
+2018-10-31 18:11:08,489 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/story/20180131-where-dutch-directness-comes-from
+2018-10-31 18:11:11,922 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 930 bytes
+2018-10-31 18:11:11,922 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:11,922 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   14  /   149   -   1  
+2018-10-31 18:11:11,964 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3697 bytes
+2018-10-31 18:11:11,965 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:11,965 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:11,965 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/food/diets/vegan
+2018-10-31 18:11:11,982 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 289 bytes
+2018-10-31 18:11:11,982 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/travel/story/20181016-how-the-finnish-survive-without-small-talk
+2018-10-31 18:11:13,127 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:11:13,128 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:13,128 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   160   -   1  
+2018-10-31 18:11:13,168 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3030 bytes
+2018-10-31 18:11:13,169 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:13,169 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:13,169 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/food/pasty
+2018-10-31 18:11:13,188 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 288 bytes
+2018-10-31 18:11:13,188 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20181016-the-flu-that-transformed-the-20th-century
+2018-10-31 18:11:14,795 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 280 bytes
+2018-10-31 18:11:14,795 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:14,796 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   3   /   160   -   1  
+2018-10-31 18:11:14,836 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 2950 bytes
+2018-10-31 18:11:14,837 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:14,837 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:14,838 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttps://www.bbc.com/news/business-45976006/comments
+2018-10-31 18:11:14,845 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 286 bytes
+2018-10-31 18:11:14,845 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20181023-the-places-that-escaped-the-spanish-flu
+2018-10-31 18:11:17,497 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 802 bytes
+2018-10-31 18:11:17,497 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:17,497 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   13  /   160   -   1  
+2018-10-31 18:11:17,540 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3705 bytes
+2018-10-31 18:11:17,541 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:17,541 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:17,541 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/story/20180722-cracking-indias-mystifying-nod-code
+2018-10-31 18:11:17,560 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 275 bytes
+2018-10-31 18:11:17,560 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/future/story/20121126-do-flu-vaccines-give-you-flu
+2018-10-31 18:11:19,046 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 673 bytes
+2018-10-31 18:11:19,047 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:19,047 INFO:[127.0.0.1:46954] Receiving scrapped URLs :   12  /   163   -   1  
+2018-10-31 18:11:19,092 DEBUG:[readSocket - server.py, 325] [127.0.0.1:46954] Receiving 3555 bytes
+2018-10-31 18:11:19,093 DEBUG:[dispatcher - server.py, 268] Dispatching packet of type: URL
+2018-10-31 18:11:19,094 INFO:[127.0.0.1:46954] Receiving scrapped data
+2018-10-31 18:11:19,094 DEBUG:[dispatcher - server.py, 268] [127.0.0.1:46954] Receiving scrapped datahttp://www.bbc.com/travel/columns/why-we-are-what-we-are
+2018-10-31 18:11:19,096 DEBUG:[writeSocket - server.py, 317] [127.0.0.1:46954] Sending 254 bytes
+2018-10-31 18:11:19,096 DEBUG:[outputThread - server.py, 252] [127.0.0.1:46954] Sending URL http://www.bbc.com/earth/story/20160419-about-us
+2018-10-31 18:11:20,447 INFO:[127.0.0.1:46954] Lost connection
+2018-10-31 18:11:20,627 INFO:[127.0.0.1:46954] Disconnecting

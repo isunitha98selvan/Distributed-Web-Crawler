@@ -1,0 +1,23 @@
+[server]
+listeningAddr = 127.0.0.1
+listeningPort = 5050
+
+[client]
+hostAddr = 127.0.0.1
+hostPort = 5050
+
+[common]
+verbose = False
+logPath = logs/
+userAgent = Zeek-1.0a
+crawling = dynamic
+robotParser = true
+crawlDelay = 0
+
+[dynamic]
+domainRestricted = true
+requestLimit = 0
+rootUrls = http://www.bbc.com/
+
+[static]
+rootUrlsPath = url.txt
